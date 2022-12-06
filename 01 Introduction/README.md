@@ -14,7 +14,7 @@ You will learn how to formulate a hypothesis and act according to the result.
 In the fourth part of the course we will dive into the world of `regression analysis`. Regression analysis is a powerful tool that allows us to build predictive models based on causal relationships.
 
 Specifically we will concentrate on the `OLS`. the most widely used framework for statistical regression.
-
+>
 > Note | How to get the most  out of this course
 
 1. Don't skip any lecture
@@ -27,17 +27,10 @@ Specifically we will concentrate on the `OLS`. the most widely used framework fo
 >>> * PDF Materials
 >>> * Handy notebook files 
 
-I strongly suggest you complete all the exercise as they are designed not only for practice but also as an additional source of information that deepens your understanding of statistics.
+>>> I strongly suggest you complete all the exercise as they are designed not only for practice but also as an additional source of information that deepens your understanding of statistics.
 
 
 
 
 
 
-
-
-
-
-## Keypoints and Notes
-
-## Summary
