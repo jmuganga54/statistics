@@ -2,7 +2,7 @@
 
 > Statistics
 
-`Statistics` This project was created to learn some of basic Statistics concepts.If you find useful, it is free to use. All of the lesson are from [Udemy:Statistics for Data Science and Business Analysis](https://www.udemy.com/course/statistics-for-data-science-and-business-analysis/)
+`Statistics for Data Science and Business Analysis` This project was created to learn some of basic Statistics concepts.If you find useful, it is free to use. All of the lesson are from [Udemy: Statistics for Data Science and Business Analysis](https://www.udemy.com/course/statistics-for-data-science-and-business-analysis/)
 
 ## Goal
 
