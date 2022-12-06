@@ -1,12 +1,12 @@
-# Js Ds Algorithms
+# Statistics
 
-> Js Ds Algorithms
+> Statistics
 
-`Js Ds Algorithms` This project was created to recap some of Data Structure and Algorithm concepts.If you find useful, it is free to use.All of the codes from this project are from `Javascript Algorithms and Data Structure Masterclass`
+`Statistics` This project was created to learn some of basic Statistics concepts.If you find useful, it is free to use. All of the lesson are from [Udemy:Statistics for Data Science and Business Analysis](https://www.udemy.com/course/statistics-for-data-science-and-business-analysis/)
 
 ## Goal
 
-- Data Structure and Algorithms concepts
+- Learning Statistic Basic Concepts
 
 ## Structure
 
@@ -16,7 +16,7 @@
 
 | Course                                            | Home Page                                                             |
 | ------------------------------------------------- | --------------------------------------------------------------------- |
-| avascript Algorithms and Data Structure Masterclass| [TutsNode](www.tutsnode.com) |
+| Statistics for Data Science and Business Analysis| [Statistics for Data Science and Business Analysis](https://www.udemy.com/course/statistics-for-data-science-and-business-analysis/) |
 
 ## Contributing
 
