@@ -49,8 +49,8 @@ We said population are hard to define and observe.
 Then we saw that sampling is difficult. But samples have two big advantages. 
 * First, after you have experience, it is not hard to recognize, if a sample is representative.
 * Second statistical tests are designed to work with incomplete data. Thus, making a small mistake while sampling is not always a problem.
+![sample and population](./imgs/all_p_s.png)
+
 
 > Note
 After completing this course samples and populations will be a piece of cake for you.
-
-## Summary
