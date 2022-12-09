@@ -1,9 +1,9 @@
 ## Topic
 This course will be tought by Illya and he will be taking us through statistics for data science and business analysis.
 
- First we will start with the very basics we will learn about the different types of data and we will distinguish between `population` and `sample data`
+ First we will start with the very basics we will learn about the different `types of data` and we will distinguish between `population` and `sample data`
 
- We will study the level of measurement we can use the difference between `categorical` and `numerical` variables how to plot data, how to measure `mean`, `median` ,`mode` and how to `quantify variability`.
+ We will study the `level of measurement` we can use, the difference between `categorical` and `numerical` variables, how to plot data, how to measure `mean`, `median` ,`mode` and how to `quantify variability`.
 
  Once we have covered the introductory part of the course we will be ready to learn about the `Central Limit Theorem`,  `Normal Distribution`,  `Student's t distribution` and how to create use and interpret `confidence intervals`. These are some of the indispensable tools you need when making business decision relying on `data`.
 
