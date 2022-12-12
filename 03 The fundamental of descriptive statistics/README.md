@@ -15,3 +15,31 @@ It's easier to understand `discrete data` by saying it's the opposite of `contin
 To sum it up your weight can vary by incomprehensibly small amounts and is `continuous` while the number of childdren you want to have is directly understandable and is `discrete`.
 ![discrete continuous](./imgs/discret_continuous.png)
 
+### Levels of Measurements
+In the previous section we distinguish between `categorical` and `numerical` data. Furthermore we saw that numerical data can be `discrete` and `continuous`.
+
+It's time to move on to the other classification `levels of measurements`. These can be split into two groups `qualitative` and `quantitative data`. They are very intuitive.
+![into_level of measuarement](./imgs/intro_levels.png)
+
+`Qualitative data` can be `nominal` or `ordinal`. 
+
+`Nominal values` or like categories we talked about just now `Mercedes, BMW or Audi` or like the four seasons `winter, spring, summer, and autumn` they are not numbers and cannot be put in any order.
+![nominal](./imgs/norminal.png)
+
+`Ordinal data` on the other hand consists of `groups` and `categories` but follows a strict order. Imagine you have been asked to rate your lunch and the options are `disgusting, unappetizing, neutral, tasty and delicious` although we have words and not numbers. It is obvious that these preferences are ordered from negative to positive. Thus the data is `qualitative ordinal`.
+![orginal](./imgs/ordinal.png)
+
+So what about `Quantitative variable`. Well as you may have guessed by now they are split into two groups `interval` and `ratio`. Interval and ratios are both represented by numbers but have one major difference, `ratios` have a `true zero` and `intervals don't`.
+
+For example `length` is a ratio variable. You all know that `0 inches` or `0 feet` means no length, with `temperature`, however we have a different story. It is usually an `interval variable`. Usually it is expressed in `Celsius` or `Fahrenheit` They are both `interval variables`, `zero degrees Celsius` or `zero degrees Fahrenheit` don't mean anything, as the absolute zero temperature is actually negative `273.50 degree celsius` or `negative 459.67 fahrenheit`
+![ratio](./imgs/ratio.png)
+
+In the case of `interval variables` the difference is meaningful but the `zero` is not. Continuing this temperature example, there is another scale `kelvins`. According to it the absolute minimum temperature is `zero degree kelvin`. Therefore if the degree are stated in Kelvin the variable will be a `ratio`.
+![zero meaningful](./imgs/zero_meaningless.png)
+
+So numbers like `2, 3, 10, 10.5, pie, etc` can be both an `interval` or `ratio` measurement. But you have to be careful with the context you are using them in.
+
+All right we've quickly gone through the types of data and the measurement levels.
+![measurement levels](./imgs/measurement_levels.png)
+
+ Stick around to see the types of graphs that are used on a daily basis when  performing statistical analysis.
