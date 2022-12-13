@@ -2,6 +2,7 @@
 You were probably watching this course because you want to learn the appropriate statistics to perform different tests. However before we can start testing we have to get acquainted with the types of variable usually encounter, different type of variables required different type of statistical tests as such it is key to be able to classify the data you are working with we can classify data in two main ways based on its `type` and `on its measurement level`. 
 
 ## Keywords and Notes
+## The fundamental of descriptive Statistics
 ### Types of Data
 There is `categorical` and `numerical data`. 
 ![types of data](./imgs/types_of_data.png)
@@ -43,3 +44,62 @@ All right we've quickly gone through the types of data and the measurement level
 ![measurement levels](./imgs/measurement_levels.png)
 
  Stick around to see the types of graphs that are used on a daily basis when  performing statistical analysis.
+
+### Categorical variable | Visualization techniques of categorical variable
+
+Now that we've seen the different types of data and levels of measurment we can have, we are ready to explore different graphs and tables which will alow us to `visually present the data we are working with`.
+
+Visualizing data is the most intuitive way to interpret it.So it will be great if we learn how to do that.
+![visualize data](./imgs/visualize_data.png)
+
+As you may recall there are two types of variables `categorical` and `numerical`.
+
+In this section we will focus on `categorical variables`. The most common way to visualize them are `frequency distribution tables`, `bar chars`, `pie charts`, and Pareto diagrams.
+
+![cateorical visualization](./imgs/categorical_visualization.png)
+
+First let's see what the `frequency distribution table` look like. It has `two columns`, the `category itself` and the `the corresponding frequency`
+
+Imagine you own a car shop and you sell only German cars. The table below shows the categories of cars. `Audi, BMW, and Mercedes` and their `frequency` or in plain English `the number of units sold`.
+
+![frequency distribution table](./imgs/frequency_distribution_table.png)
+
+By organizing your data in this way you can compared the different brands and see that `Audi has been sold the most`.
+
+ No preference is on my side, however tables aren't much fun, using the same table, we can construct a `bar chart`.
+
+ ![bar charts](./imgs/bar_charts.png)
+
+ The `vertical axis` shows the number of units sold while each bar represents a `different category` indicated on the `horizontal axis`. In this way it is much clear that `AUDI` is the best selling brand.
+
+ Ok let's represent the same data with a `pie charts`, in order to build one, we need to calculate the percentage of the total of each brand in statistics, this is known as `relative frequency`. 
+
+ ![pie charts](./imgs/pie_charts.png)
+
+ `Relative frequency` is the percentage of the total frequency of each category. Naturally all relative frequencies add up to 100 percent. Pie charts are especially useful when we not only want to compare items among each other but also to see their share of the total.
+
+ This example could be easily transformed into a business example of market share. Market share is so predominantly represented by pie chares that if you `search` for market share in google images you would get only pie charts.
+
+Imagine that the data in our table is representing the sales of Audi, BMW and Mercedes in a single German city, St. ban. The chart will show us the market share that each of these brands has.
+
+Lastly, we have `Pareto diagram`. In fact ` `Pareto diagram` is nothing more than a special type of bar `chart` where categories are shown in descending orders of frequency.
+
+By `Frequency`, Statisticians mean the `number of occurrences of each item`. As we said earlier in our example that's exactly the number of units sold. 
+
+Let's go back to our frequency distribution table and ordered the brands by frequency. Now we can create the bar charts based on our `reorder table` and we almost have a `Pareto diagram`
+
+Theres is one last touch to make it one, a curve on the same graph showing the `cumulative frequency`. 
+
+`Cumulative frequency` is the sum of relative frequencies. It stars as the frequency of the first brand, then we aadd the second, the third and so on until it finishes at 100 percent.
+
+![pareto diagram](./imgs/pareto_diagram.png)
+
+
+The `polygon line` is measured by a different vertical axes on the right of the graph. At the end of its vertices it shows the sum total of the catagories to its left.
+
+See how the `Pareto diagrams` combines the strong sides of the `bar and the pie chart`. It isi easy to compare the data both between categories and as a part of the total. 
+
+![top companies](./imgs/top_comapnies.png)
+Furthermore if this was a market share graph you could easily see the market share of the top two or top five companies.
+
+These are the main ways in which we visually represent `categorical data.
