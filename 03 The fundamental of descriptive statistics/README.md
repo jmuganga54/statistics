@@ -82,7 +82,7 @@ By organizing your data in this way you can compared the different brands and se
 
 Imagine that the data in our table is representing the sales of Audi, BMW and Mercedes in a single German city, St. ban. The chart will show us the market share that each of these brands has.
 
-Lastly, we have `Pareto diagram`. In fact ` `Pareto diagram` is nothing more than a special type of bar `chart` where categories are shown in descending orders of frequency.
+Lastly, we have `Pareto diagram`. In fact `Pareto diagram` is nothing more than a special type of bar `chart` where categories are shown in descending orders of frequency.
 
 By `Frequency`, Statisticians mean the `number of occurrences of each item`. As we said earlier in our example that's exactly the number of units sold. 
 
