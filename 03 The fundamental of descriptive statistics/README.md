@@ -117,4 +117,4 @@ These are the main ways in which we visually represent `categorical data.
 
 > Solution to the Challenge
 
-![Solution to the challenge](./imgs/solution2_bar.p)
+![Solution to the challenge](./imgs/solution2_bar.png)
