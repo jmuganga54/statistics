@@ -103,3 +103,16 @@ See how the `Pareto diagrams` combines the strong sides of the `bar and the pie 
 Furthermore if this was a market share graph you could easily see the market share of the top two or top five companies.
 
 These are the main ways in which we visually represent `categorical data.
+
+### Challenge  | Categorical variables. Visualization techniques
+#### Challenge 1
+![challenge 1 cateorical variable](./imgs/challenge_categorical.png)
+
+> Solution to the Challenge
+![Solution to the challenge](./imgs/challenge1_solution.png)
+
+#### Challenge 2
+![Challenge 2 categorical](./imgs/challenge2_cv.png)
+
+> Solution to the Challenge
+![Solution to the challenge](./imgs/solution2_bar.png)
