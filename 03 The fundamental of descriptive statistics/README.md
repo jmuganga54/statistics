@@ -109,10 +109,12 @@ These are the main ways in which we visually represent `categorical data.
 ![challenge 1 cateorical variable](./imgs/challenge_categorical.png)
 
 > Solution to the Challenge
+
 ![Solution to the challenge](./imgs/challenge1_solution.png)
 
 #### Challenge 2
 ![Challenge 2 categorical](./imgs/challenge2_cv.png)
 
 > Solution to the Challenge
-![Solution to the challenge](./imgs/solution2_bar.png)
+
+![Solution to the challenge](./imgs/solution2_bar.p)
