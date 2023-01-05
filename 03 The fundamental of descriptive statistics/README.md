@@ -105,16 +105,30 @@ Furthermore if this was a market share graph you could easily see the market sha
 These are the main ways in which we visually represent `categorical data.
 
 ### Challenge  | Categorical variables. Visualization techniques
-#### Challenge 1
+#### Challenge 1 | Frequency Distribution table
 ![challenge 1 cateorical variable](./imgs/challenge_categorical.png)
 
 > Solution to the Challenge
 
 ![Solution to the challenge](./imgs/challenge1_solution.png)
 
-#### Challenge 2
+#### Challenge 2 | Bar Graph
 ![Challenge 2 categorical](./imgs/challenge2_cv.png)
 
 > Solution to the Challenge
 
 ![Solution to the challenge](./imgs/solution2_bar.png)
+
+#### Challenge 3 | Pie Chart
+![Pie Chart](./imgs/challenge3_pie_chart.png)
+
+> Solution to the Challenge
+![Pie Chart Solution](./imgs/piechart_solution.png)
+
+### Challenge 4 | Pareto Diagram
+![Challenge Pareto Diagram](./imgs/pareto_diagram_challenge.png)
+
+> Solution to the challenge
+![Pareto Diagram Solution](./imgs/pareto_diagram_solution.png)
+
+[Here is a link to Microsoft's article on the topic](https://support.office.com/en-us/article/Add-or-remove-a-secondary-axis-in-a-chart-91da1e2f-5db1-41e9-8908-e1a2e14dd5a9)
