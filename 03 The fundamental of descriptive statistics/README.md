@@ -175,6 +175,10 @@ So the interval from `1-20` has an `absolute frequency of 2` but a `relative fre
 
 All right this is how we calculate relative frequencies.Now that we have summarized the `raw data` we can start plotting it.
 
+#### Challenge | Numerical variables. Frequency distribution table
+![Numerical table](./imgs/challenge_fdt_num.png)
+
+
 
 
 
