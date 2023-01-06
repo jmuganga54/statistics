@@ -132,3 +132,49 @@ These are the main ways in which we visually represent `categorical data.
 ![Pareto Diagram Solution](./imgs/pareto_diagram_solution.png)
 
 [Here is a link to Microsoft's article on the topic](https://support.office.com/en-us/article/Add-or-remove-a-secondary-axis-in-a-chart-91da1e2f-5db1-41e9-8908-e1a2e14dd5a9)
+
+### Numerical Variables | Using Frequency Distribution Table
+
+We already know how to create graphs and tables for categorical variables in this lesson. We're going to do the same for `numerical variables`, and given that `numerical data` is the main focus of this course. We will spend a couple of lesson on this topic.
+
+Now whenever we want to plot data, it is best to first order it in a table. So as we did with `categorical variables`, let's start by creating a `frequency distribution table`.
+
+Here is the list of `20 different numbers`.
+![list of numbers](./imgs/list_numbers.png)
+
+If we arrange them in a frequency table like the one we use for categorical variables we would obtain a table with `20 rows` each of them representing one number of a corresponding frequency of one, as each number occurs exactly one time. 
+![list of number ordered](./imgs/list_number_ordered.png)
+
+This table would be `impractical` for any analysis right? Well when we deal with numerical variables it makes much more sense to group the data into `intervals`, and then find the corresponding `frequencies`
+
+In this way we make a summary of our data that allows for a `meaningful visual representation`.
+
+`How do we choose these intervals`, Generally statisticians prefer working with the groups of data that contain `5 to 20 intervals` but it depends....
+
+This way the summary can be useful. However this varies from case to case and the correct choice of intervals largely depends on the amount of data we are working with, in our example, we will divide the data into `five intervals` of equal length.
+![data interval](./imgs/data_interval.png)
+
+The simple formula that we use is as follows
+`The interval width is equal to the largest number minus the smallest number divided by the number of desired intervals`. In our case the length of the interval should be `100 minus 1 divided by 5`, the result is `19.8`, now we want to round this number up in order to reach a neater representation, which will be 20.
+![interval width](./imgs/interval_width.png)
+
+Therefore our intervals will be as follows `1-21`, `21-41`,`41-61`,`61-81`, and `81-101`. Each Interval has a with of `20`.
+![width](./imgs/width.png)
+
+> Let's try to construct the frequency distribution table
+
+We will have to work with two components, `intervals` and `frequncy`, as we can see from the table below.
+![frequency distributin table](./imgs/frequncy_distribution_table_num.png)
+
+For many analysis it is useful to `calculate the relative frequncy` of the data points. As we said in a previous section the `relative frequncy is the frequncy of given interval as a part of the total`.
+
+Let's add another column to our table and name it `relative frequency`.
+![relative frequency num](./imgs/relative_frequncy_num.png)
+
+So the interval from `1-20` has an `absolute frequency of 2` but a `relative frequency of 2 divided by the total 20 numbers` which gives us `10 percent` and so on as we fill the table. 
+
+All right this is how we calculate relative frequencies.Now that we have summarized the `raw data` we can start plotting it.
+
+
+
+
