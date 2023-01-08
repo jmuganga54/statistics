@@ -178,7 +178,13 @@ All right this is how we calculate relative frequencies.Now that we have summari
 #### Challenge | Numerical variables. Frequency distribution table
 ![Numerical table](./imgs/challenge_fdt_num.png)
 
+> Solution to the challenge
+![Numerical Variable FDT](./imgs/Numerial_fdt.png)
 
+```
+//Count based on interval excel
+=COUNTIF($B$18:$B$37,">="&D23)-COUNTIF($B$18:$B$37,">"&E23)
+```
 
 
 
