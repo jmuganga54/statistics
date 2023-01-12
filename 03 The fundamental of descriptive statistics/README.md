@@ -186,5 +186,49 @@ All right this is how we calculate relative frequencies.Now that we have summari
 =COUNTIF($B$18:$B$37,">="&D23)-COUNTIF($B$18:$B$37,">"&E23)
 ```
 
+### The Histogram
+The most common graph used to represent numerical data is the `histogram`.
 
+First we'll learn how to create it, and then we'll provide a description of the way the data is represented.
+
+We are going to use the Frequency Distribution table from our previous example to help us.
+
+`Figure below` Here it is as you can see it looks like a bar chart but actually conveys very different information.
+![Histogram](./imgs/histogram.png)
+
+`As in the bar chart`, The vertical axis is the numerical type and shows the `absolute frequency`
+![Vertical axis](./imgs/histogram_vertical.png)
+
+> Horizontal axis is numerical too. Using the other classification, it is quantitative data , of the interval type
+![bar horizontal](./imgs/bar_horizontal.png)
+
+So each bar has `width` equal to the `interval` and `height` equal to the `frequency`.
+
+
+Notice how the different bars are touching.
+![Bar touching](./imgs/bar_touching.png)
+
+This is to show that there is `continuation between the intervals` each interval ends where the next one starts.
+
+In the `bar chart`, different bars represent different categories.
+![histogram vs bar graph](./imgs/bar_vs_histogram.png)
+
+Sometimes it is useful to plot the `intervals` against the `relative` rather than the `absolute frequency`
+![intervals aganist relative](./imgs/interval_aganist_relfreq.png)
+
+As you can see above the `histogram` looks the same visually but gives different information to the audience. Remember `relative frequency` is made up of percentages.
+
+There is one last thing to note here. We many create a histogram with an equal intervals.
+![histogram with an unequal intervals](./imgs/histogram_with_unequal_intervals.png)
+
+An example is designing `age groups`. You've likely completed some survey where you were asked about your age and the possible answers were `18-25`, then `25-30` to `30-35` and so on until plus clearly the interval width vary and reflect different `focus groups` for the experiment at hand.
+
+An explanation for this choice may be young adults under 25 cannot afford the product while adults over `60 have no interest in the product`.In any case you should be quite experienced to accurately design and interpret such groups.
+
+> Note!!!
+
+It is highly recommended that you stick with the equal intervals until you gain enough experience.
+![equal intervals](./imgs/equal_intervals.png)
+
+This is how we can build a histogram in order to represent numerical data.
 
