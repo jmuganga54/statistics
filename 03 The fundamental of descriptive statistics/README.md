@@ -301,3 +301,6 @@ Finally we have `Jane` from a minute ago. She is far away from every observation
 We will learn more about outliers and how to treat them in our analysis later on in this course.
 
 So we have gone through the basics. We have covered populations, sample's, type of variables, graphs and tables. It is time for us to dive into the  heart of `descriptive statistics`, `measurements of central tendency` and `variability`.
+
+#### Cross table and scatter plot Challenge
+![Scatter plot](./imgs/scatter_plot_challenge.png)
