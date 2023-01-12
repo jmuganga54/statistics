@@ -232,3 +232,9 @@ It is highly recommended that you stick with the equal intervals until you gain 
 
 This is how we can build a histogram in order to represent numerical data.
 
+
+#### The Histogram exercise
+![histogram challenge](./imgs/histogram_challenge.png)
+
+> Solution to the challenge
+![histogram](./imgs/histogram_challenge.png)
