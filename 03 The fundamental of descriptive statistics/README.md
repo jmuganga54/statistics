@@ -238,3 +238,66 @@ This is how we can build a histogram in order to represent numerical data.
 
 > Solution to the challenge
 ![histogram](./imgs/histogram_challenge.png)
+
+### Cross Table and Scatter Plot
+So far we cover graphs that represent only one variable but how can we represent relationships between two variables.
+
+In this section we'll explore across `tables and scatter plots`.
+
+Once again we have a division between categorical and numerical variables.
+
+Let's start with categorical variables. The most common way to represent them is using `cross tables` or as some statisticians call them `contingency tables`.
+
+Imagine you are an investment manager and you manage stocks bonds and real estate investments for three different investors.
+![portfolio](./imgs/portfolio.png)
+
+Each of them has a different idea of risk and hence their money is allocated in different way among the three asset classes, across table representing all the data looks in the following way you,
+![cross tabulation](./imgs/cross_tabulation.png)
+
+You can clearly see the rows showing the different type of investments that's been made and the columns with each investors allocation. It is good practice to calculate the totals of each row and column as it is often useful in further analysis.
+
+Notice that the subtotals of the rows give us total investment in stocks, bonds and real estate.
+
+On the other hand the subtotals of the columns gives us the holding of each investor, once we have created a cross table we can proceed to visualizing the data onto a plane, a very useful chart in such cases is a variation of the `bar chart` called the `side by side bar chart`.
+![side by side](./imgs/side_by_side.png)
+
+It represent the holding of each investor in the different types of assets, `stocks are in green`, `Bonds are in red`, and `real estate is in blue`. The name of this type of chart comes from the fact that for each investor the categories of assets are represented `side by side`. In this way we can easily compare asset holding for a specific investor or among investors.
+
+> All graphs are very easy to create and read once you have identified the type of data your'e dealing with and decided on the best way to visualize it.
+
+Finally we would like to conclude with a very important graph `the scatter plot`, this is used when representing two numerical sets of data.
+
+For this example we have gathered the reading and writing S.A.T scores of 100 individuals.
+![data SAT exam](./imgs/data_SAT.png)
+
+Let see first see the graph before analyzing it.
+![Scatter plot graph](./imgs/scatter_plot.png)
+
+First SAT scores are component range from `200 t0 800` points, that is why our data is bounded withing the range of 200 to 800 circuit.
+![scatter plot circuit](./imgs/scatter_circuit.png)
+
+Second, our `vertical axes` shows the `writing` scores while the `horizontal axes` contains the `reading` scores.
+
+Third, thee are 100 students and their results correspond to a specific point in the graph. Each pint gives us information about a particular student's performance.
+
+For Example
+![Jame](./imgs/Jame.png)
+
+The above pointed point is Jane, she scored 300 on writing but 550 on the reading part, `scatter plots` usually  represents lots and lots of observations, when interpreting a scatter plot a statistician is not expected to look into single data points. He/she would be much more interested in getting the main idea of how the data is distributed.
+
+The first thing we see is that there is an obvious up trend.
+![uptrend](./imgs/uptrend.png)
+
+This is because lower `writing scores` are usually obtain by students with `lower reading scores` and `higher writing scores` have been achieved by `students with higer reading scores`, this is logical. Student are more likely to do well on both because the two tests are closely related. 
+
+Second we notice a `concentration of students` in the middle of the graph with `scores in the region of 450 t0 550` on both reading and writing.
+
+Remember that we said that scores could be anywhere between `200 and 800`, well `500` is the `average` score one can get. So it makes sense that a lot of people fall into that area.
+
+Third there is a group of people with both very high writing and reading scores. Teh exceptional students tend to be excellent at both components. This is less true for bad students as their performance tends to deviate when performing different tasks.
+
+Finally we have `Jane` from a minute ago. She is far away from every observation as she scored above average on reading but poorly on writing. This observation is called an `outlier` as it goes aganist the `logic` of the whole dataset.
+
+We will learn more about outliers and how to treat them in our analysis later on in this course.
+
+So we have gone through the basics. We have covered populations, sample's, type of variables, graphs and tables. It is time for us to dive into the  heart of `descriptive statistics`, `measurements of central tendency` and `variability`.
