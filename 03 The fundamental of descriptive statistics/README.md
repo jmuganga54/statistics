@@ -304,3 +304,6 @@ So we have gone through the basics. We have covered populations, sample's, type 
 
 #### Cross table and scatter plot Challenge
 ![Scatter plot](./imgs/scatter_plot_challenge.png)
+
+> Solution to the challenge
+![Scatter plot](./imgs/scatter_plot_solution.png)
