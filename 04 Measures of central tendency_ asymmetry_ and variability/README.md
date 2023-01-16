@@ -59,6 +59,57 @@ In general you often have multiple modes usually two or three modes are tolerabl
 
 The NYC and LA, example shows us that measures of central tendency should be used together rather than independently. `There is not best... but using only one is definitely the worst`
 
-
 Now you know about the mean, median and mode, in our next video we will use that knowledge to talk about `skewness`
+
+#### Mean, Median and Mode | Challenge
+![measure of central tendency](./imgs/measure_central_challenge.png)
+
+> Solution to the challenge
+![solution challenge](./imgs/solution_challenge.png)
+
+```
+Execel formulas
+MEAN - =AVERAGE(B11:B21)
+MEDIAN - =MEDIAN(B11:B21)
+MODE - =MODE.SNGL(B11:B21)
+```
+
+### Measuring Skewness
+After exploring the measures of `central tendency`, let's move on to the measure of `asymmetry`. The most commonly used tool to measure asymmetry is `skewness`.
+
+![Skewness](./imgs/skewness_formula.png)
+This is the formula to calculate it, almost always you will use `software that performs the calculations` for you. 
+
+So in this lesson we will not get into the computation but rather the meaning of `skewness`. 
+
+![skewness](./imgs/skewness_indicates.png)
+So `skewness` indicates whether the observations in a dataset are concentrated on one side, `skewness` can be confusing at the beginning. 
+
+So an example is in place. Remember frequency distribution tables from previous lectures. Here we have three datasets and their respective frequency distributions. We have also calculates the means, medians and modes.
+
+> Positive Skew / Right skew
+
+![Positive skew](./imgs/right_skew.png)
+The first dataset has a mean of `2.79` and median of `2.00`, hence the `mean > median`. We say that this is a positive or `right skew`. From the graph, you can clearly see that the data points are concentrated on the left side. Note the direction of the skew is counter-intuitive.
+
+It does not depend on which side the line is leading to but rather to which side it's `tail` is leading. So `right skewness` means that the outliers are to the right.
+
+It is interesting to see the measures of central tendency incorporated in the graph when we have `right skewness the mean is bigger than the median` and the `mode is the value with the highest visual representation`
+![Positive skewness](./imgs/positive_skew.png)
+
+> Zero or no skew
+![zero skew](./imgs/zero_skew.png)
+In the second graph, we have plotted a data set that `has an equal mean, median and mode`, the frequency of occurrence is completely symmetrical and we call this a `zero or no skew`.
+
+Most often you'll hear people say that the `distribution is symmetrical` 
+
+> Negative skew
+![Negative Skew](./imgs/negative_skew.png)
+For the third dataset, we have a mean of `4.9` a median of `5` and a mode of `6`, as the `means is lower than the median`, we say that there is a `negative or left skew`. Once again the highest point is defined `by the mode`.
+
+Why is it called a `left skew` again? Because the `outliers` are to the `left`
+
+So why is skewness important. Skewness tells us a lot about where the data is situated. As we mentioned in our previous lesson, the mean, median and mode should be used together to get a good understanding of the dataset, `measure of asymmetry` are the link between the `central tendency` measures and `probability theory` which ultimately allows us to get a more complete understanding of the data we are working with.
+
+
 ## Summary
