@@ -117,5 +117,75 @@ So why is skewness important. Skewness tells us a lot about where the data is si
 > Solution to the challenge
 ![solution challenge](./imgs/skewness_solution.png)
 
+### Measure of Variability 
+There are many ways to quantify variability. However we will focus on the most common ones, `variance`, `standard deviation` and `coefficient of variation`.
+
+In the field of statistics we will typically use different formulas when working out the population data and sample data.
+
+When you have the whole `population` each data point is known, so you are 100% sure of the measure you are calculating, when you take a `sample of this population`, and you compute a `sample statistic, it is interpreted as an approximation of the population parameter`.
+
+Moreover if you extract 10 different samples from the same population you will get 10 different measures. Statisticians have solved the problem by adjusting the algebraic formulas for many statistics to reflect. Therefore we will explore both population and sample formulas as they are both used.
+
+You must be asking yourself why there are unique formulas for the mean, median and mode.
+
+![mean evaluated](./imgs/mean_evaluated.png)
+`Mean`, well actually the sample mean is the average of the sample data points. While the population mean is the average of the population data points. Technically there are two different formulas but they are compute in the same way.
+
+Ok now after this short clarification it's time to get on a `variance` measure of the `dispersion`
+
+### VARIANCE
+`Variance` measure the dispersion of a set of data points around their mean value.
+
+![Variance](./imgs/variance.png)
+
+`Population variance` denoted by Sigma squared is equal to the sum of square difference between the observed values and the population mean divided by the total number of observations.
+
+![population variance](./imgs/population_variance.png)
+
+`Sample variance` is denoted by `s squared` and is equal to the sum of squared differences between observed sample values and the sample mean divided by the number of sample observation minus one.
+
+![sample variance](./imgs/sample%20variance.png)
+
+All right when you are getting acquainted with statistics it is hard to grasp everything right away.
+
+Therefore let's stop for a second to examine the formula for the population and try to clarify it's meaning
+
+![population variance](./imgs/population_variance.png)
+
+
+The main part of the formula is its numerator. So that's what we want to comprehend. The sum of the differences between the observation and the mean squared.
+
+![variance explained](./imgs/variance_explained.png)
+So the closer the number of the mean the lower the result we will obtain. And the further away from the mean it lies the larger the difference. 
+
+Easy, but why do we elevate the second degree. Squaring the differences has two main purpose. First by squaring the numbers we always get non-negative computations. Without going deep into the mathematics of it is intuitive that dispersion cannot be negative.
+
+`Dispersion` is about distance and distance cannot be `negative`. If on the other hand we calculate the difference and do not elevate to the second degree we would obtain both positive and negative values, that when summed would cancel out leaving us with no information about the dispersion.
+
+
+Second `squaring amplifies the effect of large differences`, for example if the mean is 0 and you have an observation of 100 the squared spread is 10000
+
+![squaring variance](./imgs/squaring_variance.png)
+
+> Example
+We have a population of 5 observations, `1,2,3,4,5`, Let's find it's variants. We start by calculating the means.
+
+![calculating mean](./imgs/calculating_mean.png)
+
+Then we just apply the formula of findin the variance of a population.
+
+![calcuating the variance](./imgs/population_variance_calculated.png)
+
+So the population variance of the data set is `2` but what about `sample variance`. This would only be suitable if we were told that these five observation were a sample drawn from a population, so let image that is the case.
+
+![sample variance](./imgs/sample_variance_calculated.png)
+
+Denominator is going to be 4 instead of 5, giving us a sample variance of `2.5` to conclude the variance topic we should interpret the result.
+
+![result](./imgs/result.png)
+
+`Why is sample variance bigger than the population variance` in the first case, we knew the population that is we had al the data and we calculated the variance, in the second case, we were told that `1,2,3,4,5` was a simple drawn form a bigger population, 
+
+
 
 ## Summary
