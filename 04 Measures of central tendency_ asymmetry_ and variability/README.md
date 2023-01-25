@@ -112,10 +112,10 @@ Why is it called a `left skew` again? Because the `outliers` are to the `left`
 So why is skewness important. Skewness tells us a lot about where the data is situated. As we mentioned in our previous lesson, the mean, median and mode should be used together to get a good understanding of the dataset, `measure of asymmetry` are the link between the `central tendency` measures and `probability theory` which ultimately allows us to get a more complete understanding of the data we are working with.
 
 #### Skewness | Challenge
-![Skewness](./imgs/skewness_solution.png)
+![Skewness](./imgs/skewness_challenge.png)
 
 > Solution to the challenge
-![solution challenge](./imgs/solution_challenge.png)
+![solution challenge](./imgs/skewness_solution.png)
 
 
 ## Summary
