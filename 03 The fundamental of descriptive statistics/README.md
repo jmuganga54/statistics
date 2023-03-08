@@ -237,7 +237,7 @@ This is how we can build a histogram in order to represent numerical data.
 ![histogram challenge](./imgs/histogram_challenge.png)
 
 > Solution to the challenge
-![histogram](./imgs/histogram_challenge.png)
+![histogram](./imgs/histogram_solution.png)
 
 ### Cross Table and Scatter Plot
 So far we cover graphs that represent only one variable but how can we represent relationships between two variables.
