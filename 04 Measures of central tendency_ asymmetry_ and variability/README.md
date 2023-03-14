@@ -99,12 +99,15 @@ It is interesting to see the measures of central tendency incorporated in the gr
 
 > Zero or no skew
 ![zero skew](./imgs/zero_skew.png)
+
 In the second graph, we have plotted a data set that `has an equal mean, median and mode`, the frequency of occurrence is completely symmetrical and we call this a `zero or no skew`.
 
 Most often you'll hear people say that the `distribution is symmetrical` 
 
 > Negative skew
+
 ![Negative Skew](./imgs/negative_skew.png)
+
 For the third dataset, we have a mean of `4.9` a median of `5` and a mode of `6`, as the `means is lower than the median`, we say that there is a `negative or left skew`. Once again the highest point is defined `by the mode`.
 
 Why is it called a `left skew` again? Because the `outliers` are to the `left`
@@ -185,6 +188,50 @@ Denominator is going to be 4 instead of 5, giving us a sample variance of `2.5` 
 ![result](./imgs/result.png)
 
 `Why is sample variance bigger than the population variance` in the first case, we knew the population that is we had al the data and we calculated the variance, in the second case, we were told that `1,2,3,4,5` was a simple drawn form a bigger population, 
+
+#### Variance Challenge
+![Variance Challenge](./imgs/variance_challenge.png)
+
+#### Variance Solution
+![Variance Solution](./imgs/varince_solution.png)
+
+### Standard Deviation and Coefficient of Variation
+While `Variance` is a common measure of data dispersion. In most cases the figure you will obtain is pretty large and to compare as the unit of measurement is squared.
+
+The easy fix is to calculate its `square root` and obtain a static know as `standard deviation`. In most analysis you perform `standard deviation` will be much more meaningful than `variance`, as we saw previous lecture. There are diffrence measure for the `population` and `sample variance`. Consequently there is also `population` and `sample standard deviation`.
+
+![Standard Deviation Formula](./imgs/standard_deviation_formulas.png)
+
+The other measure we still have to introduce is the `coefficient of variation`. It is equal to the `standard deviation` divided by the `mean`. Another name for the term is `relative standard deviation`. This is an easy way to remember its formula.
+
+![coefficient of variaton](./imgs/coefficient_of_variation.png)
+
+This is an easy way to remember its formula. It is simply the standard deviation relative to the mean as you probably guessed there is a `population and sample`. Once again so `standard deviation is the most common measure of variability for a single dataset.
+
+![Coefficient of variation](./imgs/coefficient_sample_pop.png)
+
+Once again so `standard deviation` is the most common measure of variability for a single dataset. But why do we need yet another measure such as the coefficient of variation.
+
+Well comparing the `standard deviation` for the `two different datasets` is `meaningless` but comparing coefficients of variation is not.
+![comparing](./imgs/comparing_coefficients.png)
+
+> Aristotle once said, tell me, I'll forget, show me, I'll remember, involve me, I'll understand.
+
+> Example
+
+Let take the prizes of pizza at 10 different places in New York. They range from `$1 to $11`. Now imagine that you only have Mexican pesos and to you the prices look more like `$18.81 - $206.91`
+
+Given the exchange rate of `18.81 pesos for 1 dollar`. Let's combine our knowledge so far and find the standard deviation and coefficients of variation fo these two data sets.
+
+`First` we have to see if this is a sample or a population. Are there only 11 restaurants in New York, of course not, this is obviously a sample drawn from all the restaurants in the city.
+
+Then we have to use the formulas for the sample measure of variability.
+
+`Second` we have to find the means, the means in dollars is equal to `5.5` and the mean in pesos is `103.46`
+
+`Third` step of the process if finding the sample variance. Following the formula that we showed earlier we can obtain `10.72` dollars for pizzas and '3.793.69` dollars for pesos.
+
+
 
 
 
