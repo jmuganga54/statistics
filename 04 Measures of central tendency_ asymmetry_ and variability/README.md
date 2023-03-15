@@ -1,8 +1,11 @@
 ## Topic
-It is time for us to dive into the  heart of `descriptive statistics`, `measurements of central tendency` and `variability`.
+
+It is time for us to dive into the heart of `descriptive statistics`, `measurements of central tendency` and `variability`.
 
 ## Keywords & notes
+
 ### Measures of Central tendency
+
 This lesson we'll introduce you to the three measures of central tendency. Don't be scared by the terminology we are talking about `mean`, `median` and `mode` event if you are familiar with these terms.
 ![measure of central tendency](./imgs/central_tendency.png)
 
@@ -19,12 +22,12 @@ The mean is the most common measure of `central tendency` but it has a huge down
 Let's compare these two data sets.
 ![data set](./imgs/data_set.png)
 
-These are the price of pizza at 11 different locations in New York City and 10 different locations in LA. Let's calculate the means of the two data sets using the formula. 
+These are the price of pizza at 11 different locations in New York City and 10 different locations in LA. Let's calculate the means of the two data sets using the formula.
 ![mean calculated](./imgs/mean_calculated.png)
 
-For the mean in NYC, we get `$11` whereas for LA just `$5.5` on average pizza. 
+For the mean in NYC, we get `$11` whereas for LA just `$5.5` on average pizza.
 
->On average, pizza in MY can't be twice as expensive as in LA, right? Correct
+> On average, pizza in MY can't be twice as expensive as in LA, right? Correct
 
 The problem is that in our sample we have included one posh place in New York where they charge `$66` for pizza, and this doubled the mean, what we should take away from this example is that `the mean is not enough to make definite conclusions!`
 
@@ -48,7 +51,6 @@ We must introduce another measure `the mode`.The `mode` is the value that occurs
 
 After counting the frequencies of each value we find that the mode of `New York Pizza` prices is `$3`, now that's interesting. The most common price of pizza in NYC is just `$3` but the mean and median lead us to believe it was much more expensive.
 
-
 Let's do the same fnd find the mode of LA pizza prices, from `each price appears only once`. How do we define the mode then. Well, we say that `there is no mode`, but can I say that there are 10 modes you may ask?.
 
 Sure you can but it will be meaningless with 10 observation and an experienced statistician would never do that.
@@ -62,10 +64,11 @@ The NYC and LA, example shows us that measures of central tendency should be use
 Now you know about the mean, median and mode, in our next video we will use that knowledge to talk about `skewness`
 
 #### Mean, Median and Mode | Challenge
+
 ![measure of central tendency](./imgs/measure_central_challenge.png)
 
 > Solution to the challenge
-![solution challenge](./imgs/solution_challenge.png)
+> ![solution challenge](./imgs/solution_challenge.png)
 
 ```
 Execel formulas
@@ -75,15 +78,16 @@ MODE - =MODE.SNGL(B11:B21)
 ```
 
 ### Measuring Skewness
+
 After exploring the measures of `central tendency`, let's move on to the measure of `asymmetry`. The most commonly used tool to measure asymmetry is `skewness`.
 
 ![Skewness](./imgs/skewness_formula.png)
-This is the formula to calculate it, almost always you will use `software that performs the calculations` for you. 
+This is the formula to calculate it, almost always you will use `software that performs the calculations` for you.
 
-So in this lesson we will not get into the computation but rather the meaning of `skewness`. 
+So in this lesson we will not get into the computation but rather the meaning of `skewness`.
 
 ![skewness](./imgs/skewness_indicates.png)
-So `skewness` indicates whether the observations in a dataset are concentrated on one side, `skewness` can be confusing at the beginning. 
+So `skewness` indicates whether the observations in a dataset are concentrated on one side, `skewness` can be confusing at the beginning.
 
 So an example is in place. Remember frequency distribution tables from previous lectures. Here we have three datasets and their respective frequency distributions. We have also calculates the means, medians and modes.
 
@@ -98,11 +102,11 @@ It is interesting to see the measures of central tendency incorporated in the gr
 ![Positive skewness](./imgs/positive_skew.png)
 
 > Zero or no skew
-![zero skew](./imgs/zero_skew.png)
+> ![zero skew](./imgs/zero_skew.png)
 
 In the second graph, we have plotted a data set that `has an equal mean, median and mode`, the frequency of occurrence is completely symmetrical and we call this a `zero or no skew`.
 
-Most often you'll hear people say that the `distribution is symmetrical` 
+Most often you'll hear people say that the `distribution is symmetrical`
 
 > Negative skew
 
@@ -115,12 +119,14 @@ Why is it called a `left skew` again? Because the `outliers` are to the `left`
 So why is skewness important. Skewness tells us a lot about where the data is situated. As we mentioned in our previous lesson, the mean, median and mode should be used together to get a good understanding of the dataset, `measure of asymmetry` are the link between the `central tendency` measures and `probability theory` which ultimately allows us to get a more complete understanding of the data we are working with.
 
 #### Skewness | Challenge
+
 ![Skewness](./imgs/skewness_challenge.png)
 
 > Solution to the challenge
-![solution challenge](./imgs/skewness_solution.png)
+> ![solution challenge](./imgs/skewness_solution.png)
 
-### Measure of Variability 
+### Measure of Variability
+
 There are many ways to quantify variability. However we will focus on the most common ones, `variance`, `standard deviation` and `coefficient of variation`.
 
 In the field of statistics we will typically use different formulas when working out the population data and sample data.
@@ -137,6 +143,7 @@ You must be asking yourself why there are unique formulas for the mean, median a
 Ok now after this short clarification it's time to get on a `variance` measure of the `dispersion`
 
 ### VARIANCE
+
 `Variance` measure the dispersion of a set of data points around their mean value.
 
 ![Variance](./imgs/variance.png)
@@ -155,23 +162,21 @@ Therefore let's stop for a second to examine the formula for the population and 
 
 ![population variance](./imgs/population_variance.png)
 
-
 The main part of the formula is its numerator. So that's what we want to comprehend. The sum of the differences between the observation and the mean squared.
 
 ![variance explained](./imgs/variance_explained.png)
-So the closer the number of the mean the lower the result we will obtain. And the further away from the mean it lies the larger the difference. 
+So the closer the number of the mean the lower the result we will obtain. And the further away from the mean it lies the larger the difference.
 
 Easy, but why do we elevate the second degree. Squaring the differences has two main purpose. First by squaring the numbers we always get non-negative computations. Without going deep into the mathematics of it is intuitive that dispersion cannot be negative.
 
 `Dispersion` is about distance and distance cannot be `negative`. If on the other hand we calculate the difference and do not elevate to the second degree we would obtain both positive and negative values, that when summed would cancel out leaving us with no information about the dispersion.
-
 
 Second `squaring amplifies the effect of large differences`, for example if the mean is 0 and you have an observation of 100 the squared spread is 10000
 
 ![squaring variance](./imgs/squaring_variance.png)
 
 > Example
-We have a population of 5 observations, `1,2,3,4,5`, Let's find it's variants. We start by calculating the means.
+> We have a population of 5 observations, `1,2,3,4,5`, Let's find it's variants. We start by calculating the means.
 
 ![calculating mean](./imgs/calculating_mean.png)
 
@@ -187,15 +192,18 @@ Denominator is going to be 4 instead of 5, giving us a sample variance of `2.5` 
 
 ![result](./imgs/result.png)
 
-`Why is sample variance bigger than the population variance` in the first case, we knew the population that is we had al the data and we calculated the variance, in the second case, we were told that `1,2,3,4,5` was a simple drawn form a bigger population, 
+`Why is sample variance bigger than the population variance` in the first case, we knew the population that is we had al the data and we calculated the variance, in the second case, we were told that `1,2,3,4,5` was a simple drawn form a bigger population,
 
 #### Variance Challenge
+
 ![Variance Challenge](./imgs/variance_challenge.png)
 
 #### Variance Solution
+
 ![Variance Solution](./imgs/varince_solution.png)
 
 ### Standard Deviation and Coefficient of Variation
+
 While `Variance` is a common measure of data dispersion. In most cases the figure you will obtain is pretty large and to compare as the unit of measurement is squared.
 
 The easy fix is to calculate its `square root` and obtain a static know as `standard deviation`. In most analysis you perform `standard deviation` will be much more meaningful than `variance`, as we saw previous lecture. There are diffrence measure for the `population` and `sample variance`. Consequently there is also `population` and `sample standard deviation`.
@@ -231,8 +239,51 @@ Then we have to use the formulas for the sample measure of variability.
 
 `Third` step of the process if finding the sample variance. Following the formula that we showed earlier we can obtain `10.72` dollars for pizzas and '3.793.69` dollars for pesos.
 
+![observation](./imgs/observation.png)
+Let's make a couple of observations. First `variance` gives results in `squared unit` while `standard deviation` in original units.
+
+This is the main reasons why professionals prefer to use `standard deviation` as the main measure of variability.
+
+> Note: Standard deviation is the preferred measure of variability, as it is directly interpretable.
+
+`Squared dollars` means nothing even in the field of statistics. 
+
+Second we got standard deviation of `3.27` and `61.59` for the pizza at the same eleven restaurants in New York City,seems wrong.
+
+> Same pizza, same restaurants, but different standard deviations...
+
+It is time to use our last tool, `The coefficient of variation`, dividing the standard deviations by the respective means we get the two `coefficients of variation`, the result is the same `0.60`.
+
+Notice that is not dollars. Pesos dollars square or pesos squared. `It is just 0.60`.
+
+`Advantage of using Coefficient of Variation`
+> does not have a unit of measurement
+> Universal across dataset
+> Perfect for comparisons
+
+This shows us the great advantage that the coefficient of variation gives us. Now we can confidently say that the two data sets have the same variability.
+
+Which is what we expected beforehand.
+
+![coefficient of variation](./imgs/coefficient_of_variation.png)
+
+>Recap
+There are three main measures of variability, `variance`, `standard deviation` and `coefficient of variation`.
+![measure of variation](./imgs/measure_of_variation.png)
+
+You should feel confident using all of them as we're getting closer to more complex statistical topics.
+
+#### Standard deviation and Coefficient of variation Challenge
+
+![Standard Deviation and Coefficeint Ch](./imgs/sd_challenge.png)
+
+#### Standard deviation and Coefficient of variation Solution
+![sd_solution](./imgs/sd_solution.png)
 
 
 
+
+
+ 
 
 ## Summary
