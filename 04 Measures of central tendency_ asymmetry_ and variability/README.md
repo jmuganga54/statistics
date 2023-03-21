@@ -349,6 +349,16 @@ There is just one tiny problem with `covariance` though it could be a number lik
 How could one interpret such numbers?. On the following section we will learn about `correlation coefficient`, which can help with this issue.
 
 
+### Covariance Challenge
+![Covariance Challenge](./imgs/covariance_challenge.png)
+
+### Covariance Solution
+![Covaraince solution](./imgs/covariance_solution.png)
+
+
+
+
+
 
 
 
