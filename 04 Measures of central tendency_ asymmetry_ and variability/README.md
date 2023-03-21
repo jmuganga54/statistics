@@ -246,7 +246,7 @@ This is the main reasons why professionals prefer to use `standard deviation` as
 
 > Note: Standard deviation is the preferred measure of variability, as it is directly interpretable.
 
-`Squared dollars` means nothing even in the field of statistics. 
+`Squared dollars` means nothing even in the field of statistics.
 
 Second we got standard deviation of `3.27` and `61.59` for the pizza at the same eleven restaurants in New York City,seems wrong.
 
@@ -257,6 +257,7 @@ It is time to use our last tool, `The coefficient of variation`, dividing the st
 Notice that is not dollars. Pesos dollars square or pesos squared. `It is just 0.60`.
 
 `Advantage of using Coefficient of Variation`
+
 > does not have a unit of measurement
 > Universal across dataset
 > Perfect for comparisons
@@ -267,9 +268,9 @@ Which is what we expected beforehand.
 
 ![coefficient of variation](./imgs/coefficient_of_variation.png)
 
->Recap
-There are three main measures of variability, `variance`, `standard deviation` and `coefficient of variation`.
-![measure of variation](./imgs/measure_of_variation.png)
+> Recap
+> There are three main measures of variability, `variance`, `standard deviation` and `coefficient of variation`.
+> ![measure of variation](./imgs/measure_of_variation.png)
 
 You should feel confident using all of them as we're getting closer to more complex statistical topics.
 
@@ -278,12 +279,77 @@ You should feel confident using all of them as we're getting closer to more comp
 ![Standard Deviation and Coefficeint Ch](./imgs/sd_challenge.png)
 
 #### Standard deviation and Coefficient of variation Solution
+
 ![sd_solution](./imgs/sd_solution.png)
 
+### COVARIANCE
+We're covered all univariate measures. 
+![Univariant measures](./imgs/univariant_measures.png)
+
+Now it's time to see measures that are used when we work with more than one variable. In the next two lessons, we'll explore measures that can help us explore the relationship between variables.
+
+Our focus will be on `covariance` and the `linear correlation coefficient`.
+![Measures of relationship](./imgs/measure_of_relationship.png)
+
+Let's zoom out a bit and think of an example that is very easy to understand and will help us grasp the nature of the relationship between two variables a bit better.
+
+Think about real estate which is one of the main factors that determined `house prices`, their `size`. Typically larger houses are more expensive as people like having extra space.
+
+The table that you can see here shows, data about several houses, on the left side, we can see the size of each house and on the right, we have the price at which it's been listed in a local newspaper.
+
+We can present these data points in a `scatter plot` the `x axis` will show `House size` and the `y axis` will provide information about its `price`.
+
+We can certainly notice a pattern, there is a clear relationship between these variables.
+![Covariance scatterplot](./imgs/covariance_scatterplot.png)
+
+We say that two variables are correlated and the main statistic to measure this correlation is called `covariance` unlike variance, `covariance` may be positive equal to zero or negative. 
+
+```
+Covariance may be
+> 0
+= 0
+< 0
+```
+To understand the concept better I would like to show you the formulas that allows us to calculate the covariance between two variables.
+
+It's formulas with an S because once again there is a sample and population formula.
+![Covariance_formulas](./imgs/covariance_formulas.png)
+
+
+Since this is obviously sample data we should use the `sample covariance formula`. Let's apply it in practice for the example that we saw earlier, `x` will be the `house size` and `y` stands for `house prices`.
+
+First we need to calculate the `mean size` and the `mean price`.
+
+Now let's calculate the nominator of the `covariance` function starting with first house. We have to perform this calculation for al the houses that we have in the table and then sum the numbers we've obtained. The sample size is `five`.
+
+Now we have to divide the sum above by the sample size minus one. 'The Result is the `covariance`.
+
+![calculating covariance](./imgs/calculation_covariance.png)
+![covariance result](./imgs/covariance_result.png)
+
+It gives us a sense of direction in which the two variables are moving. 
+
+```
+Covariance gives a sense of direction
+
+> 0, the two variables move together
+< 0, the two variables move in opposite directions
+= 0, the two variables are independent
+```
+
+There is just one tiny problem with `covariance` though it could be a number like `5` or `50` but it can also be something like `0.0023456` or even over `30 million`.
+
+```
+5
+50
+0.0023456
+33,491,250
+```
+
+How could one interpret such numbers?. On the following section we will learn about `correlation coefficient`, which can help with this issue.
 
 
 
 
- 
 
 ## Summary
