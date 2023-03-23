@@ -356,6 +356,91 @@ How could one interpret such numbers?. On the following section we will learn ab
 ![Covaraince solution](./imgs/covariance_solution.png)
 
 
+### The correlation coeffiecient
+Correlation adjust `covariance` so that the relationship between the two variable becomes easy and intuitive to interpret.
+
+The `formulas for the correlation coefficient` are the `covariance` divided by the product of  standard deviations of the two variables.
+![Correlation coefficient](./imgs/covariance_coefficient.png)
+
+This is either sample or population depending on the data you are working with. We already have the standard deviations of the two data sets. Now we'll use the formula in order to find the simple correlation coefficient.
+![Correlation coefficient](./imgs/correlation_coefficient.png)
+
+Mathematically there is no way to obtain a correlation value greater than 1 or less than negative 1.
+![Correlation_coefficient_value](./imgs/correlation_coefficient_valued.png)
+
+Remember the coefficient of variation we talked about a couple of lesson ago. Well this concept is similar.
+
+> We manipulated the strange covariance value in order to get something intuitive.
+
+Let's examine it for a bit.  We got a `sample correlation coefficient` of `0.87`, so for each foot increase in size of a house, it price rises by `870 dollars`.
+
+OK what about the general case, `a correlation of one`also known as `perfect positive correlation` means that the entire variability of one variable is explained by the other variable.
+![Perfect positive correlation](./imgs/prefect_positive_correlation.png)
+
+In our case this means that for every additional square foot of size we would expect an increase of, let's say `$1000` in the house price.
+![Correlation size and price](./imgs/corellation_size_price.png)
+
+For instance `five additional square feet` will lead to a price increase of `$5000`
+![Five additional](./imgs/five_additional.png)
+
+`10 additional square feet` will lead to a price increase of `$10,000` and so on.
+![10 additional](./imgs/10_additional.png)
+
+In that case the observation in pur plot will form a straight line as the `correlation` between `size` and `price` has to be prefect.
+![Perfect correlation 1](./imgs/perfect_corr.png)
+
+It would mean the the `size` is the only variable that determine our `houses price` and that we can easily calculate a house price if we know its size.
+![If you know the size](./imgs/if_you_know_the%20_size.png)
+
+Before we continue we must note that the correlation between two `variables x and y` is the same as correlation between `y and x`
+![Corelation of xy is same yx](./imgs/x_y_is_eqal_y_x.png)
+
+The formula is completely symmetrical with respect to both variables.
+![Formulas are symmetrical](./imgs/symmetrical.png)
+
+Therefore we must expect that an increase in price of `$1000` will also mean that the size must be one square foot larger
+
+> $1000 increase in price means 1 square foot larger, right?
+
+However logically we know that size determines price, on average the bigger house you build the more expensive it will be.
+![Relationship direction](./imgs/relationship_direction.png)
+
+This relationship only goes this way once a house is built. If for some reason it become more expensive its size doesn't increase although there is a positive correlation. This lead us to `causality`.
+
+![Causality](./imgs/causality.png)
+It is very important for any analyst or researcher to understand the direction of `causal relationships`. In the house business `size` causes the price and not vice versa.
+
+We will explore this topic in much more detail in the `regression analysis` section later on. For now it is only needed that you realize that `correlation` does not imply `causation`.
+![Correlation vs Causation](./imgs/corr_vs_causation.png)
+
+`Correlation of zero` between two variables means that they are `absolutely independent from each other`.
+
+
+![Correlation of 0](./imgs/correlation_0.png)
+We would expect a correlation of zero between the prie of `coffee in Brazil` and the `price of houses in London`. The two variables don't have anything in common.
+
+Finally we can have `negative correlation coefficient`. It can be `Perfect negative correlation of -1 (negative 1) or much more likely an imperfect negative correlation` of a value between negative [-1,0)
+
+![Negative correlation](./imgs/negative_correlation.png)
+Think of the following businesses a companying producing `ice cream` and a company `selling umbrellas`. Ice cream tends to be sold a lot more when the whether is very good and people buy umbrellas when its rainy. Obviously there is a `negative correlations` between the two and hence when one of the companies makes money the other won`t. 
+
+With this example, we conclude the section on description statistics in the next lesson you will see a real life database example that applies all the knowledge you acquired in this section.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
