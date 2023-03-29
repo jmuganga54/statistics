@@ -283,7 +283,8 @@ You should feel confident using all of them as we're getting closer to more comp
 ![sd_solution](./imgs/sd_solution.png)
 
 ### COVARIANCE
-We're covered all univariate measures. 
+
+We're covered all univariate measures.
 ![Univariant measures](./imgs/univariant_measures.png)
 
 Now it's time to see measures that are used when we work with more than one variable. In the next two lessons, we'll explore measures that can help us explore the relationship between variables.
@@ -302,7 +303,7 @@ We can present these data points in a `scatter plot` the `x axis` will show `Hou
 We can certainly notice a pattern, there is a clear relationship between these variables.
 ![Covariance scatterplot](./imgs/covariance_scatterplot.png)
 
-We say that two variables are correlated and the main statistic to measure this correlation is called `covariance` unlike variance, `covariance` may be positive equal to zero or negative. 
+We say that two variables are correlated and the main statistic to measure this correlation is called `covariance` unlike variance, `covariance` may be positive equal to zero or negative.
 
 ```
 Covariance may be
@@ -310,11 +311,11 @@ Covariance may be
 = 0
 < 0
 ```
+
 To understand the concept better I would like to show you the formulas that allows us to calculate the covariance between two variables.
 
 It's formulas with an S because once again there is a sample and population formula.
 ![Covariance_formulas](./imgs/covariance_formulas.png)
-
 
 Since this is obviously sample data we should use the `sample covariance formula`. Let's apply it in practice for the example that we saw earlier, `x` will be the `house size` and `y` stands for `house prices`.
 
@@ -327,7 +328,7 @@ Now we have to divide the sum above by the sample size minus one. 'The Result is
 ![calculating covariance](./imgs/calculation_covariance.png)
 ![covariance result](./imgs/covariance_result.png)
 
-It gives us a sense of direction in which the two variables are moving. 
+It gives us a sense of direction in which the two variables are moving.
 
 ```
 Covariance gives a sense of direction
@@ -348,18 +349,19 @@ There is just one tiny problem with `covariance` though it could be a number lik
 
 How could one interpret such numbers?. On the following section we will learn about `correlation coefficient`, which can help with this issue.
 
-
 ### Covariance Challenge
+
 ![Covariance Challenge](./imgs/covariance_challenge.png)
 
 ### Covariance Solution
+
 ![Covaraince solution](./imgs/covariance_solution.png)
 
-
 ### The correlation coeffiecient
+
 Correlation adjust `covariance` so that the relationship between the two variable becomes easy and intuitive to interpret.
 
-The `formulas for the correlation coefficient` are the `covariance` divided by the product of  standard deviations of the two variables.
+The `formulas for the correlation coefficient` are the `covariance` divided by the product of standard deviations of the two variables.
 ![Correlation coefficient](./imgs/covariance_coefficient.png)
 
 This is either sample or population depending on the data you are working with. We already have the standard deviations of the two data sets. Now we'll use the formula in order to find the simple correlation coefficient.
@@ -372,7 +374,7 @@ Remember the coefficient of variation we talked about a couple of lesson ago. We
 
 > We manipulated the strange covariance value in order to get something intuitive.
 
-Let's examine it for a bit.  We got a `sample correlation coefficient` of `0.87`, so for each foot increase in size of a house, it price rises by `870 dollars`.
+Let's examine it for a bit. We got a `sample correlation coefficient` of `0.87`, so for each foot increase in size of a house, it price rises by `870 dollars`.
 
 OK what about the general case, `a correlation of one`also known as `perfect positive correlation` means that the entire variability of one variable is explained by the other variable.
 ![Perfect positive correlation](./imgs/prefect_positive_correlation.png)
@@ -415,36 +417,21 @@ We will explore this topic in much more detail in the `regression analysis` sect
 
 `Correlation of zero` between two variables means that they are `absolutely independent from each other`.
 
-
 ![Correlation of 0](./imgs/correlation_0.png)
 We would expect a correlation of zero between the prie of `coffee in Brazil` and the `price of houses in London`. The two variables don't have anything in common.
 
 Finally we can have `negative correlation coefficient`. It can be `Perfect negative correlation of -1 (negative 1) or much more likely an imperfect negative correlation` of a value between negative [-1,0)
 
 ![Negative correlation](./imgs/negative_correlation.png)
-Think of the following businesses a companying producing `ice cream` and a company `selling umbrellas`. Ice cream tends to be sold a lot more when the whether is very good and people buy umbrellas when its rainy. Obviously there is a `negative correlations` between the two and hence when one of the companies makes money the other won`t. 
+Think of the following businesses a companying producing `ice cream` and a company `selling umbrellas`. Ice cream tends to be sold a lot more when the whether is very good and people buy umbrellas when its rainy. Obviously there is a `negative correlations` between the two and hence when one of the companies makes money the other won`t.
 
 With this example, we conclude the section on description statistics in the next lesson you will see a real life database example that applies all the knowledge you acquired in this section.
 
+### Correlation Challenge
+![Correlation challenge](./imgs/correlation_challenge.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+### Correlation Solution
+![Correlation Solution](./imgs/correlation_solution.png)
 
 
 ## Summary
