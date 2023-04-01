@@ -182,7 +182,6 @@ First, males are more likely to sign contracts and are potentially a better audi
 ![Observation](./imgs/observations.png)
 Second,`68%` of our sales come from California, with Nevada, Oregon, Arizona and Colorado forming 93% of the US customer case.
 
-
 ![Age](./imgs/age_inference.png)
 Third, 71% of the sales were made with customer aged between 26 and 55 years old, with a mean of 46 years and a standard deviation of 13 years.The distrubution is right skewed so we expect people to buy more property than older people. Younger people buy more property than older people
 
