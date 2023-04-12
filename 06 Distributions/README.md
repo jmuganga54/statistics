@@ -147,15 +147,16 @@ On the other hand `higher standard deviation` will cause the graph to fly with l
 ![Higher standard deviation](./imgs/lower_sd.png)
 
 ## The Standard Normal Distribution
+
 ![Standard Normal distribution](./imgs/standard_normal_distribution.png)
 The Standard normal distribution is a particular case of the normal distribution. We will use the letter `z` to denote it.
 
 It has a mean of zero and a `standard deviation of one`, the standard normal distribution is easy to understand and has several important applications.
 
-Every normal distribution can be `standardized`, standardization in this context is the process of turning a normal distributed variable to one with a standard normal distribution. 
+Every normal distribution can be `standardized`, standardization in this context is the process of turning a normal distributed variable to one with a standard normal distribution.
 ![Normal to Standard](./imgs/normal_to_standard.png)
 
-A simple formula allows us to do that. The `standardized variable` the variable whose normal distribution are turning into a `standard normal` distribution is called a `z score`, it is equal to the original variable minus its mean divided by its standard deviation. 
+A simple formula allows us to do that. The `standardized variable` the variable whose normal distribution are turning into a `standard normal` distribution is called a `z score`, it is equal to the original variable minus its mean divided by its standard deviation.
 ![Standardize](./imgs/Standardize.png)
 
 Let's try to interpret it first, we have to look at the numerator, if you take a dataset, subtract its mean from eah data point and then calculate the mean once again, you will get 0.
@@ -166,20 +167,26 @@ The following example will help us prove that. Let's take an approximately norma
 
 Its `mean is 3` and its `standard deviation is 1.22`.
 
-Now lets have subtracted the mean form all data points. We get a new dataset, then let' calculate its mean. It's mean is zero and its standard deviation is is `1.22`. 
+Now lets have subtracted the mean form all data points. We get a new dataset, then let' calculate its mean. It's mean is zero and its standard deviation is is `1.22`.
 
 So far we have a new distribution whish is still normal but with a mean of zero and standard deviation of 1.2 to the next step of standardization is to divide all data points by the standard deviation. This will drive the standard deviation of the new data set to 1.
 
-Let's go back to our example. Both the orignal dataset and the one we obtained after subtracting the mean from each data point have a standard deviation of 1.22. Remember, adding and subtracting to all data points does not change the standard deviation. Now  let's divide each data point by 1.2, we get a new dataset, if we calculate the standard deviaito of this dataset we will get 1 and the mean is still zero.
+Let's go back to our example. Both the orignal dataset and the one we obtained after subtracting the mean from each data point have a standard deviation of 1.22. Remember, adding and subtracting to all data points does not change the standard deviation. Now let's divide each data point by 1.2, we get a new dataset, if we calculate the standard deviaito of this dataset we will get 1 and the mean is still zero.
 ![Process of standardizing](./imgs/process_of_standardizing%20.png)
 
 This is how we can obtain a `standard normal distribution` from any `normally distributed dataset`. Using it makes predictions and inference much easier. And this will help us a great deal in what we will see next.
 
 ### Standard Normal Distribution Challenge
+
 ![Standard Normal distribution challenge](./imgs/standard_normal_distribution_challenge.png)
 
 ### Standard Normal Distribution Solution
+
 ![Standard Normal Distributon Solution](./imgs/standard_normal_distribution_solution.png)
 
+## Understanding the Central Limit Theorem
+
+![The Central Limit theoreom](./imgs/central_limit_theorem.png)
+The central limit theorem is one of the most important concepts in statistics. If you had to choose one thing to remember from this course, which I hope you don't, we'll see in this lesson is what you want to remember. The reason for this is the umatched practial application of the theorem.
 
 ## Summary
