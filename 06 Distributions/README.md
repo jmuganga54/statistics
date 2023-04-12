@@ -175,4 +175,11 @@ Let's go back to our example. Both the orignal dataset and the one we obtained a
 
 This is how we can obtain a `standard normal distribution` from any `normally distributed dataset`. Using it makes predictions and inference much easier. And this will help us a great deal in what we will see next.
 
+### Standard Normal Distribution Challenge
+![Standard Normal distribution challenge](./imgs/standard_normal_distribution_challenge.png)
+
+### Standard Normal Distribution Solution
+![Standard Normal Distributon Solution](./imgs/standard_normal_distribution_solution.png)
+
+
 ## Summary
