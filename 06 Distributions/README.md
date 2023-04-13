@@ -186,7 +186,42 @@ This is how we can obtain a `standard normal distribution` from any `normally di
 
 ## Understanding the Central Limit Theorem
 
-![The Central Limit theoreom](./imgs/central_limit_theorem.png)
-The central limit theorem is one of the most important concepts in statistics. If you had to choose one thing to remember from this course, which I hope you don't, we'll see in this lesson is what you want to remember. The reason for this is the umatched practial application of the theorem.
+![The Central Limit theorem](./imgs/central_limit_theorem.png)
+The central limit theorem is one of the most important concepts in statistics. If you had to choose one thing to remember from this course, which I hope you don't, we'll see in this lesson is what you want to remember. The reason for this is the unmatched practical application of the theorem.
+
+Let's  get started then imagine that you are given a data set, it's distribution does not matter.
+![Given dataset](./imgs/given_dataset.png)
+
+The first thing you want to do is start taking out subsets from the data sets. Or as statisticians call it, you start sampling it. This would allow you to get a better idea of how the entire data is made. Once you have taken a sufficient number of samples and then calculate the mean of each sample, you will be able to apply the `Central Limit Theorem`.
+![Sampling](./imgs/sampling.png)
+
+No matter the distribution of the entire data sets `binomial, uniform or another one`. The means of the samples you took from the entire dataset will approximate a normal distribution. the more samples you extract and the bigger they are the closer to a normal distribution the sample mean will be. 
+
+Moreover their distribution will have the same mean as the original data set and an end times smaller variance, where `n` is the size of your samples you took from the data sets.
+![Central limit theorem](./imgs/central_description.png)
+
+Let's confirm the theorem with an example. We have prepared `960` random numbers from 1 to 1000. This is their frequency distribution. So you are sure that they are randomly picked, the mean of this `dataset is 489` and its variance is `82.805`
+![Given data](./imgs/given_data.png)
+
+Let's extract 30 random samples out of the dataset each consisting of `25 numbers`.
+![Sample 30](./imgs/sample_30.png)
+
+Remember when we said that the sample should be sufficiently large. `A common rule of thumb is that the sample should be bigger than 25 observations`. The bigger the sample size the better the results you'll get. So we have our sample, so now we are going to calculate their means and plot them once again.
+![Sample means of samples](./imgs/sample_mean_sample.png)
+
+It looks approxiamately normally distributed.
+![Plotted graph](./imgs/plotted_graph.png)
+
+Let's check if the other part of the theorem was right. The mean of our newly acquired dataset is `492`, while it's variants is `3171`. Did we expect these numbers?. We anticipated a mean of `489` and a variance of `82,805` divided by `25`. 
+![Expected](./imgs/expected.png)
+![Predicted](./imgs/predicted.png)
+
+When dealing with such big numbers we almost get the mean right and the variance was not that for off either. In the next few lectures you will learn how to statistically confirm whether such small differences are close enough to the actual result we expect to obtain.
+ 
+So we have learned the main idea behind the `Central Limit Theorem`. The key takeaway from this lesson is that the number of samples taken tends towards infinity, the distribution of the mean start approximating a normal distribution. Imagine their power if your dataset was made up of millions of values and you could afford to sample just a tiny bit of them.
+
+We can be assuming normally distributed data almost all the time and that's extremely helpful as you will see later on.
+
+
 
 ## Summary
