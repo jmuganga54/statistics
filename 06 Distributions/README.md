@@ -189,13 +189,13 @@ This is how we can obtain a `standard normal distribution` from any `normally di
 ![The Central Limit theorem](./imgs/central_limit_theorem.png)
 The central limit theorem is one of the most important concepts in statistics. If you had to choose one thing to remember from this course, which I hope you don't, we'll see in this lesson is what you want to remember. The reason for this is the unmatched practical application of the theorem.
 
-Let's  get started then imagine that you are given a data set, it's distribution does not matter.
+Let's get started then imagine that you are given a data set, it's distribution does not matter.
 ![Given dataset](./imgs/given_dataset.png)
 
 The first thing you want to do is start taking out subsets from the data sets. Or as statisticians call it, you start sampling it. This would allow you to get a better idea of how the entire data is made. Once you have taken a sufficient number of samples and then calculate the mean of each sample, you will be able to apply the `Central Limit Theorem`.
 ![Sampling](./imgs/sampling.png)
 
-No matter the distribution of the entire data sets `binomial, uniform or another one`. The means of the samples you took from the entire dataset will approximate a normal distribution. the more samples you extract and the bigger they are the closer to a normal distribution the sample mean will be. 
+No matter the distribution of the entire data sets `binomial, uniform or another one`. The means of the samples you took from the entire dataset will approximate a normal distribution. the more samples you extract and the bigger they are the closer to a normal distribution the sample mean will be.
 
 Moreover their distribution will have the same mean as the original data set and an end times smaller variance, where `n` is the size of your samples you took from the data sets.
 ![Central limit theorem](./imgs/central_description.png)
@@ -212,16 +212,36 @@ Remember when we said that the sample should be sufficiently large. `A common ru
 It looks approxiamately normally distributed.
 ![Plotted graph](./imgs/plotted_graph.png)
 
-Let's check if the other part of the theorem was right. The mean of our newly acquired dataset is `492`, while it's variants is `3171`. Did we expect these numbers?. We anticipated a mean of `489` and a variance of `82,805` divided by `25`. 
+Let's check if the other part of the theorem was right. The mean of our newly acquired dataset is `492`, while it's variants is `3171`. Did we expect these numbers?. We anticipated a mean of `489` and a variance of `82,805` divided by `25`.
 ![Expected](./imgs/expected.png)
 ![Predicted](./imgs/predicted.png)
 
 When dealing with such big numbers we almost get the mean right and the variance was not that for off either. In the next few lectures you will learn how to statistically confirm whether such small differences are close enough to the actual result we expect to obtain.
- 
+
 So we have learned the main idea behind the `Central Limit Theorem`. The key takeaway from this lesson is that the number of samples taken tends towards infinity, the distribution of the mean start approximating a normal distribution. Imagine their power if your dataset was made up of millions of values and you could afford to sample just a tiny bit of them.
 
 We can be assuming normally distributed data almost all the time and that's extremely helpful as you will see later on.
 
+## Standard Error
+In the previous lesson we showed that no matter the underlying distribution of the data set the distribution of the sample means would be normal with the mean equal to the original mean and variance equal to the original variance divide by the sample size.
+
+This section will defined what is `standard error` and its purpose.
+
+`Standard error`  is the standard deviation of the distribution formed by the sample means.
+
+`So how do we find it`, we know its variance (sigma squared divided by n), therefore the `standard deviation` is Sigma divided by the square root of N.
+![Standard error](./imgs/standard_error.png)
+
+`Meaning of the standard error`, like standard deviation the standard error shows variability.
+![Variability](./imgs/variability.png)
+
+In this case is the variability of the means of the different samples we extracted. You can guess that since the term has its own name, it is widely used and very important.
+
+`Why is standard error very important`, Well is used for almost statistical tests because is shows you how well you approximated the true mean.
+![SE why important](./imgs/se_why_important.png)
+
+`Standard error decreases when sample size increases`, This makes sense as bigger sample give a better approximation of the population.
+![Standard Error](./imgs/standard_error.png)
 
 
 ## Summary
