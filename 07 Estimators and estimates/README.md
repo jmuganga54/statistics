@@ -35,3 +35,31 @@ Let's move on to efficiency. The most efficient estimators are the ones with the
 It is enough to know that the most efficient means the `unbiased estimator with the smallest variance`
 
 
+## Confidence Intervals
+In previous lesson we learned about `point estimators`. But as you can guess they are not very reliable.
+
+Imagine visiting 5 percent of the restaurants in London and saying that the average meal is worth 22.50 pounds. You many be close but chances are that the true values is it really 22.50 but somewhere around it its much safer to say that the average meal in London is somewhere between 20 and 25 pounds.
+
+In this way you have create a confidence interval around your point estimate  of 22.50 pounds, Confidence Interval: [20pounds, 25pounds]
+![Confidence Interval](./imgs/confidence_interval.png)
+
+`Confidence Interval` is a much more accurate representation of reality. However there is still some uncertainty left which we measure in levels of confidence.
+
+So getting back to our example you may say that you are `95% confident that the population parameters lies between 20 and 25 pounds.
+![95% sure](./imgs/sure_confiedence.png)
+
+Keep in mind that you can never be 100% confident unless you go through the entire population, and there is of course a 5% chance that the actual population parameter is outside of the 20 - 25 pounds range.
+[5% chance](./imgs/not_sure.png)
+
+We'll observer that if the sample we have considered deviate significantly from the entire population.
+
+There is one more ingredient needed. The `level of confidence` it is denoted by `one minus alpha` and is called the confidence level of the interval.
+![Confidence level](./imgs/confidence_level.png)
+
+Alpha is a value between `0 and 1`.
+
+For example if we want to be 95 percent confident that the parameter is inside the interval Alpha is 5% If we want a higher confidence level say 99% Alpha will be 1%.
+![Confidence level](./imgs/levels.png)
+
+The formula for all confidence interval is from the point estimate minus the reliability factor times  the standard error to the pont estimate plus reliability factor times standard error.
+![Formula Confidence Interval](./imgs/formulat_ci.png)
