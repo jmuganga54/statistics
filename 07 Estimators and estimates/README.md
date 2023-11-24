@@ -121,3 +121,121 @@ Please not that in this case there is a tradeoff between the level of confidence
 ![Precision](./imgs/precision.png)
 
 if we are trying to estimate the population mean and we are picking a larger interval we are increasing our chances of having a interval that actually includes the mean and vice versa. If we want to be more specific about the population mean range, this will take away from our confidence about this statement.
+
+## Student's T Distribution
+
+William Gosset was an English statistician who worked for the the brewery of Guinness. He developed different methods for the selection fo the best yiedling varieties fo barley an important ingredient when making beer. Gosset found big sample tedious.
+
+So he was trying to develop a way to extract small samples but still come up with meaningful predictions.
+
+He was curious and productive researchers and published a number of papers that are still relevent today.
+
+The student `t-distributon` is one of the biggest breakthrough in statistics as it allowed inference through small samples swith an unknown population variance.
+
+This sitting can be applied to a big part of statistical problems we face today and is an important, part of this course.
+
+Visutally the `Student's t distribution` looks much like a normal distribution but generally  has `flatter tails `
+
+![Student t distribution](./imgs/t_distribution.png)
+
+Flatter tails,as you may remember allows for a higher dispersion of variables as there is more uncertainty, in the same way that the Z-statistics is related to the `standard normal distribution`.
+
+`t-statistic` is related to the Students t distrubtion.
+
+The formula that allows us to calcuate it is t with and minus 1 degree of freedom and significance level of Alpha equals the sample mean minus the population mean divided by the standard error of the sample. 
+
+![Formula](./imgs/formula_t_stat.png)
+
+As you can see it is very similar to the Z statistic. After all this is an approximation of the normal distribution.
+
+![Approximation](./imgs/approximation.png)
+
+The lat characteristic of the Student's t statistic is that there are degree of feedom.
+
+![Degree of freedom](./imgs/degree_freedom.png)
+
+Usually for a sample of N we ahve `n-1` degreee of freedom. So for a sample of 20 observations, the degree of freedom is 19.
+
+
+Much like the satandard normal distribution table. We also have a studendent t table.
+
+![t_table](./imgs/t_table.png)
+
+The rows indicate different degree of freedom. Abbreviated as `d.f` while the columns common `Alphas`.
+
+![same degree of freedom](./imgs/same_df.png)
+
+Please note that after the `30th row` the numbers don't vary that much. Actually after 30 degree of freedom the statistic table becomes almost the same as the `Z-statistics`, as the degree of freedom depend on the sample
+
+In essence the bigger the sample the closer we get to the actual numbers. A comon rule of thumb is that for a simple containing more than 50 observations we use the Z table instead of the `t-table`
+
+## Calculating confidence intervals within a population with an unknown variance
+
+So we've learned that confidence intervals based on small samples from normally distributed populations are calcuated with the t-statistic.
+
+Let's revist the example we saw earlier.
+
+You are an aspiring data scientist and we are wondering how much the mean data scientis salary is .You have a sample of nine compensations you found on glass door and you have summarized the information in the following table
+
+![salaries](./imgs/sample_salaries.png)
+
+We've alread calculated the sample mean and standard error which are `$92,533`, sample standard deviation `$13,932` and standard error `$4,644`.
+
+![calculation](./imgs/calculate.png)
+
+But this time we don't have one key piece of information. The population variance. No problem. As the good statisticians that we are, we will use the Student's t distribution.
+
+Here's is the formula that allows us to find a confidence interval for the mean of a population with an unkown variance. 
+
+![Population variance unknown](./imgs/population_variance_unknown.png)
+
+Let's compare it with the formula we used when the variance is known.
+
+![compare](./imgs/compare.png)
+
+There are two key differences. First instead of Z static we have a `t-statitic` and second instead of `population standard deviation`, we have `sample standard deviation`. 
+
+Otherwise everything is the same so it shouldn't be that difficult to . The logic behind constructing confidence intervals in both cases is the same. The only two inputs that change are the static at hand and the `standard deviation`, when `population variance` is known, population standard deviation goes with the Z-statistic.
+
+When `population variance` is unknown, sample standard deviation goes with the t-statistic.
+
+A right so we have the sample mean, standard deviation and smaple size. All we have to do is find the t statistic.
+
+We will be able to obtain the t statistic from the t-table.
+
+First we have to specify the `degree of freedom` for the Studen't t distribution, there are n minus 1 degree of freedom. Our sample consists of nine observations. So we have 8 df.
+
+Second we have to find Alpha divided by two. Once again this depends on the confidence level that we want to obtain. In this example we are going to use a confidence level of 95%.
+
+This means that Alpha is equal to 5%. Therefore half of Alpha would be 2.5%.
+
+You can now see that the associated t statistic is `2.31`.
+
+![T-table reading](./imgs/t_table_reading.png)
+
+Note that some table you will find in books or online like this one have a CI row. The abbreviation stands for confidence interval. Instead of finding Alpha we can just check the 95% confidence interval and get the same result.
+
+We have all the information needed so we just plug in the numbers.
+![values](./imgs/value.png)
+
+What we get is a confidence interval from `$81,806 - $10,3261`
+
+![result](./imgs/result.png)
+
+Let's compare this result to the result for the confidence interval with known population. We got a 95% confidence interval that was between `$94,833 - $10,5568`
+
+You can cleary not that when we know the population variance we get a narrower confidence interval. We we don't know the population variance there is higher uncertainity that is reflected by wider boundaries for our interval. Make sense.
+
+![compare_results](./imgs/compare_results.png)
+
+So what we learened today is taht even when we don't know the population variance we can still make predictions but they will be less accurate.
+
+Furthermore the proper static for estimating the confidence interval when the population variance is unkown is the t statistic and not the Z-statistic. 
+
+
+
+
+
+
+
+
