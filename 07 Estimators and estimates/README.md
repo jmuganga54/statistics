@@ -233,6 +233,87 @@ So what we learened today is taht even when we don't know the population varianc
 Furthermore the proper static for estimating the confidence interval when the population variance is unkown is the t statistic and not the Z-statistic. 
 
 
+## Margin of Error
+### Confidental Intervals
+
+In the last few lessons we've been concentrating on `confidence intervals`. We learned about two situations when the `population variance is known` which happens very rarely in practice and when the `variance is unknown` and follows a `Student's t distribution`.
+
+![Confidence intervals](./imgs/confidence_intervals_recap.png)
+
+The goal of this lesson is less about learning and more about clarifying.
+
+These are the formulas that allows us to find confidence intervals as we noted in our previous lecture. These parts ar the ones that determine the span of the confidence intervals.
+
+![Confidence Intevals Formulas](./imgs/confidence_intervals_formulas.png)
+
+
+There is a special name for these expressions, which is called `Margin of error`.
+
+When the population variance is known the margin of eror is equal to this expresion in the case of population variance unknown the margin of error is equal to this expresession instead.
+
+![Margin of error](./imgs/margin_of_error.png)
+
+
+So basically the confidence intervals could be summarized as follows. The true population means falls in the inteval defined by the `sample mean plus minus the margin of error`
+
+![Margin_of_error](./imgs/margin_of_erro.png)
+
+> Now we get to the core of this lession.
+
+Getting a smaller margin of error means that the confidence interval would be narrower as we want a better prediction. Getting a smaller margin of error means that the confidence interval would be narrower as we want a better prediction.
+
+![Margin of error](./imgs/big_small_margin_of_error.png)
+
+It is in our interest to have the narrowest possible confidence interal. The best part is that we can atually control the margin of error. Let's see it parts
+
+![Margin of error Explained](./imgs/margin_explained.png)
+
+There is a statistic(reliability factor), standard deviation and the sample size. The statistic and the standard deviation are in the numerator so smaller statistics and smaller standard deviations will reduce the margin of error.
+
+![Reduce margin of error](./imgs/reduce_margin_of_eror.png)
+
+How do we do that, a higher level of confidence interval increased that statistic, a higher statistics means a higher  margin of error. This leads to a wider confidence interval.
+
+Think about this example, you took an exam and you want to make you predictions about the mean grade obtained by all exam takers, as `a,b,c,d` are all possible grades. We are 100% condient that the means grade will be in the confidence interval from F to A.
+
+![100 confident](./imgs/100_cofident.png)
+
+Now if we lower the confidence level to 99% we may end up with a confidence interval from `F plus to A minus`.
+
+[99 confident](./imgs/99_confident.png)
+
+Remember the interpretation in 99% of the cases the population mean falls in the interval. So with a 50 percent confidence level in 50% of the cases the true mean will fall in the specified interval.
+
+![50 confident](./imgs/50_interval.png)
+
+The only scenario under which this is possible is if the interval is narrower. Therefor if the standard deviationa nd the sample size are kept constant a lower confidence level will result in a narrower interval.
+
+![50 confident](./imgs/50_cofident.png)
+
+What about the standard deviation. `A lower standard deviation` means that the dataset is more concetrated around the mean. So we have a better chance to get it wright.
+
+For instance the mean grade in your calss is `B` and you know that there were people with `A, B, C, D` and `few F`. 
+
+How likely is it that you got a B.
+
+Now compare this to a situation when the teacher said the emans of the class is around B and the lowest grade is C. In this case you are much more likely to get a B. 
+
+In the first case the grades are dispersed while in the second they are concentrated.
+
+![Standard deviation lower](./imgs/sd_lower.png)
+
+Lastly we have the sample size in teh denominator higher sample sizes will decrease the margin of error. This is also quite intuitive. The more observation you have in your sample the more certain you are in the prediction.
+
+This time you have a B plus, thee are 30 people in the class and you want to know if you performed above the average, you ask three of your friends and they all got A's. You sample of three people leads you to think you underperformed. You get frustrated and start asking around some more the next 5 people you ask got Ds.
+
+![sample size](./imgs/sample_size.png)
+
+Now you have a sample of 8 people and it seems you did quite well.
+
+After asking everyone in class the whole population that is you find out that the mean grade is B you are above average by a small margin.
+
+The conclusion is that the more obbservation there are in the sample the higher the chances of getting a good idea about the true mean of the entire population.
+
 
 
 
