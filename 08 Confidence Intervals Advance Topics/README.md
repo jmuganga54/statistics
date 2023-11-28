@@ -74,3 +74,77 @@ Now we have everything we need and we can calculate the confidence interval.
 
 ### Solution
 ![exercise](./imgs/solution_1.png)
+
+# Independent Samples
+
+In our last video we learned about confidence intervals for two means based on `dependent samples`. 
+
+In this section we will explore independent samples as we said earlier. There are three sub cased 
+
+```
+Confidence Intervals. Independent samples:
+1. Known population variances
+2. Unknown population variances but assumed to be equal
+3. Unknown population variances but assumed to be different.
+```
+
+Here we will focus on independent samples with `known population variances`.
+
+We would like to get the test grades of two departments in a UK university. University grades in the UK expressed in percentages.
+
+Our samples are taken from two departments engineering and management. The table you see at the bottom below summarize the data.
+
+![Independent samples](./imgs/independent_samples.png)
+
+But before we get on with calculations. Let's point out three important considerations.
+
+![considerations](./imgs/considerations.png)
+
+Different sample sizes are a common occurence in the real world.
+
+In the previous lesson when we had dependent samples we were testing the same people over time so it made sense that the sample sizes were equally big.
+
+This time however the observations are completely different. They are students from different departments with different teachers obtaining different grades when taking different exams. 
+
+The grades of a person from engineering doesn't in any way affect the grade of a person studying mangement. The `two samples are truly independent`
+
+![Consideration 2](./imgs/consideration_2.png)
+
+
+> What are we testing?
+
+We want to find a 95% confidence interval for the difference between the grades of the students from the engineering and management.
+
+
+As with every confidence interval. We must identify the test stastistics
+
+![consideration 3](./imgs/consideration_3.png)
+
+All this information points us to the `Z-statistic` instead of the `T`. The last ingredient is the variance.
+
+We haven't been through enough mathematics in this course to derive the formula so we will simply state it.
+
+The variance of the different between the two means is equal to the variance of the grades received  by the engineering students divided byt he samples sizes of engineering students plus the variance of grades obtained by management students divided by the sample size of management students, the underlying logic is that dispersion is `additive`.
+
+More variable means higher or equal variability.
+
+![Variance of the difference](./imgs/variance%20of%20the%20difference.png)
+
+> What is the confidence Interval formula this time
+
+![formula](./imgs/formula.png)
+
+We plug in the numbers and get a confidence interval between `(-9.28, -4.72), for 95% confidence interval`
+
+![confidence interval](./imgs/confidence_interval.png)
+
+> The Interprentation
+![Interpretation](./imgs/interprentation.png)
+
+
+## Exercise
+![exercise](./imgs/exercise.png)
+
+## Solution
+
+![solution 2](./imgs/solution_2.png)
