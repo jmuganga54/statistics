@@ -194,4 +194,21 @@ Let's plug everything in and get our answer
 We are 95% confident that the actual difference between the two populations price of apples in New York and LA is somewhere between 0.47 and 0.9 to therefore it is clear that apples in New York  are much more expensive that in LA.
 
 
+## Confidence Intervals, independent Samples
+
+This is the last lesson about confidence intervals. We are not going to get too deep into it as it is just about knowing the formula.
+
+Sometimes we want to find the confidence interval for two simple means. When the samples are `independent` with `unknown variance` and when the variances are assumed to be different.
+
+You can think about comparing apples and oranges. 
+
+![apple and oranges](./imgs/apple_oranges.png)
+
+In statistics, if you actually want to compare apples and oranges. This is the right way to do it. Here's the confidence interval formula.
+
+Once again we have the difference of the means of the two samples. The variances are the simple variances of each of the two variables and here are the respective sample sizes. The tough thing about this is to estimate the degreee of freedom.
+
+Statistians have come up with a formula that allows us to do just that.
+
+![v](./imgs/v.png)
 
