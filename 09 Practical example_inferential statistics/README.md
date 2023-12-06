@@ -68,7 +68,96 @@ First we need to calculate the means. Here they are.
 
 We do not know the `population variance` in our sample comprises just 12 observations. We have to use the `t-statistic`. This problem refers to the lesson one with `poulation with population variance unknown`.
 
-We have a sample of 12 observations we are lookin gor the `t-statistic` for a 95% confidence interal with 11 degree of freedom.
+We have a sample of 12 observations therefore we are looking for the `t-statistic` for a 95% confidence interal with 11 degree of freedom.
+
+![t-statistics](./imgs/t_statistics.png)
+
+Next we will compute the standard error we will use the good old formula.
+
+![Standard error](./imgs/standard_error.png)
+
+While it is unnecessary to go through this step as we have everything we need, I will still show you the margins of error as it may be interesting for some of you to examine.
+
+Finally the confidence intervals are given by the following formula.
+
+![Confidence Interval formula](./imgs/confidence_iterval_formula.png)
+
+And this is how they look after the calculation have been carried out.
+
+![Confidence intervals output](./imgs/ci_outputs.png)
+
+The result we obtained could be interpreted as follow in 95% of the cases, the true population mean of the sales for each shoe size will fall into the respective interval. 
+
+![ci](./imgs/ci.png)
+
+As we don't want to be low on stock. A possible solution to the problem is to get as many pairs of shoes as the closet number to the upper limit of the confidence interval.
+
+
+In this way you will be almost certain you won't run out of stock and shoes won't be waiting forever in your storage unit.
+
+Therefore we should get four pairs of men's shoes size 6, 3 pairs of mean's shoes size 6.5 and so on.
+
+![Number of pairs](./imgs/number_of_pairs.png)
+
+Mostly we should prepare ourselves with size 9.5 and size 16 won't yield in any sales.
+
+
+I'd like to show you another application of confidence intervals.
+
+Let's say we want to use a confidence interval to see if two shops are selling the same number of shoes. We want to know with 95% confidence by how much one shop outperforms the other in terms of sales.
+
+You can see two tables representing the sales of women's shoes in two `German shops` their codes are `GER1` and `GER2`.
+
+![Two shops](./imgs/two_shops.png)
+
+Once again we have data for 2016.
+
+Logically it make sense that in the same year the same people don't go around different shops of the same brand to buy shoes.
+
+Even if this happens it is an exception not the norm. Therefore we can say that two samples are independent.
+
+Once again we don't know the population variance but given this is the same market in the same country, we can assume it is equal.
+
+This implies we're in the case of independent samples with population variance unknown but assumed to be equal, as in the previous case, we need to calculat the means and the sample variance.
+
+
+Here we must calculate a pooled variance which is an unbiased estimator of the population variance. We're in the case where we have to use the `t-statistics`, with 95% confidence.
+
+![CI 12](./imgs/ci_12.png)
+
+What we get from the table is 2.07. The respective margins of error are given by the well-known formula.
+
+![shops](./imgs/shops.png)
+
+Finally the 95% confidence intervals are determined by the means and the margin the margin of error.
+
+We get this 15 intervals
+![15_ci](./imgs/ci_15.png)
+
+Zero is a part of all of them except for the unellable sie for all confidence intervals start in the negatives and finish in the positives.
+
+This implies we cannot conclude one shop sells more shares than the other for any size.
+
+What it seems like we have no great insight. That's not entirely true.
+
+The confidence intervals we got are not consistently for one shop having higher sales than the other. This is evident from the fact that some are mostly negative while others are mostly positive.
+
+
+That is to show that for some sizes `GER1` is likely to sell more, while for other vice versa. However our decision was that using this methodology and level of confidence we cannot really identify which shop is selling more, they are identifical. The insight we get is thre two shops are so balanced in sales they may share the same warehouse or exchange pairs of shoes to achieve better results.
+
+They can be bundled together for any analysis action or decision needed. On average they will probably move together if one noticeably outperforms the other.
+We many be sure something that wasn't observed before is going on as they are predicted to remain identical.
+
+
+## Exercise
+![Exercise](./imgs/exercise.png)
+
+
+## Solution
+![Solution](./imgs/solution.png)
+
+
+
 
 
 
