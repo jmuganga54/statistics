@@ -91,7 +91,62 @@ In our example Paul was representing the `status quo` which we were challenging.
 ![example](./imgs/example_203.png)
 
 
+## Establishing a rejection region and a significance level 
 
+So you know what a hypothesis is and you have an idea of how to form the Null and alternative hypothesis.
+
+In this section we will understand the reason `why hypothesis testing works`. 
+
+Imagine that the actual average grade of all students in a UK university is 55%. The University Dean however believes that on average student obtain 70%.
+
+Of couse you can't just agreee with his opinion. So you start testing, `the hypothesis is the population mean grade is 70%`. `The alternative hypothesis is the population mean grade is different than 70%`
+
+> So why does hypothesis testing work
+
+We assume that the population of grades is normally distributed. The true population mean is 55%. The idea is to test if `70% is the true mean` or in our example if `70% is close enough to 55% `, this part is called the rejection region.
+
+If the `null hypothesis` vallue is inside the rejection region, you reject the `null hypothesis`.
+
+![University](./imgs/university.png)
+
+
+Now image that the old Dean who got fired recently told you that the meand grade is `56%`. In taht case if you wan tto test his opinion the `null hypothesis` would be the population means is equal to 56%. This value is much closer to 55% and far away from the rejection region. You will most likely accept the null hypothesis. 
+
+![accept](./imgs/accept.png)
+
+In statistical jargon, you cannot say that 56% is no the population mean, this will all become clear soon enough.
+
+There is one more important part of testing the `significance level`. The `significance level` is denoted by Alpha. it is the probability of rejecting the `null hypothesis` if it is true. The rejection region depends on the Alpha as pointed in the graph.
+
+Typical values for Alpha are `0.01`, `0.05` or `0.1`. it is a value that you select based ont eh certainty you need. In most cases the choice of Alpha is determined by the context you are operating in.
+
+![alpha](./imgs/alpha.png)
+
+For example if you need to test if a machine is working properly you would expect it to make little or no mistakes as you want to be very precise. You should pick a low significance level such as `0.01`. The famous Cocal-cola glass bottle is 12 ounces. If the machine pours 12.1 ounces some of the liquid will be spilled and the label will be damanage as well. So in certain situation we need to be as accurate as possible.
+
+![Cocacola](./imgs/coca_cola_bottles.png)
+
+However if we were analyzing human or company behaviour we would expect a more random behavior and hence a higher degree of error.For exampl if we want to predict how much Coca-cola consumers drink on average, the difference between 12 ounces and 12.1 ounces will not be that crucial. So we can choose a higher significance level.
+
+![mistakes](./imgs/mistakes.png)
+
+
+Our graph so far we're showing rejection regards for two sided tests such as the one where we tested whether our population mean is equal to `70%` in these cases, the significance level `alpha` is divided between the two sides of the normal distribution. On the left we have a significance of `alpha/2` and on the right, we have another `alpha/2`
+
+![Divided by two](./imgs/divided_by_two.png)
+
+This is due to the fact that the true mean could be either 55% or 85% in both cases. We are equally likely to reject the null hypothesis but on a different side of the distribution. 
+
+![both cases](./imgs/both_cases1.png)
+
+What about `one tailed` tests which look in the following way. Is the mean lower than 70%. And in each oen is the mean hgier or equal to `70%`. In this case the rejection region will only be ont he right side with a significant level of alpha.
+
+![one tailed](./imgs/one_tailed.png)
+
+
+And to complete the picture, here's a plot of the third case defiend by an age zero of the mean higher than 70%
+
+![higher](./imgs/higer.png)
 
 
 
