@@ -150,3 +150,49 @@ And to complete the picture, here's a plot of the third case defiend by an age z
 
 
 
+## TYPE I ERROR VS TYPE II ERROR
+
+In this section we will learn about the error that can be made in hypothesis testing.
+
+In general we can have to types of error type 1 error and type 2 error.
+
+First we will define the problems and then we will see some interesting examples.
+
+`Type I eror` is when you reject a true null hypothesis and si the more serious error. It is also called `false postive`.The probability of making this eror is `alpha`, the level of significance, since you the researcher choose the alpha, the responsibility for making this error lies solely on you.
+
+![false positive](./imgs/false_positive.png)
+
+`Type II error` is when you accept a false null hypothesis. The probability of making this error is doneted by `beta` depends mainly on sample size and population variance. So if your topic is difficult to test due to hard sampling or as high variability it is more likely  to make this type of error. As you can imagine if the data set is hard to test it is not your fault. So `Type II error` is considered a smaller problem.
+
+![false negative](./imgs/false_ngegative.png)
+
+
+We should also mention that the probability of rejecting a false null hypothesisi is equal to `1-beta`. This is the researcher go to reject a false null hypotheis. Therefore `1-beta` is called `the power of the test`.
+
+Generally researchers increate the power of a test by increasing the sample size.
+
+![goal](./imgs/goal.png)
+
+This is a common table statiticians used to summarize the type of errors.
+
+![table](./imgs/table.png)
+
+
+Now let's see an example that If heared from my professor back when I was studying stastics in university
+
+You're in love with this girl from the other class but are unsure if she like you. There are two errors you can make. First if she like you back and you don't invite her out you are making the `type I error`.
+
+The `null hypothesis in this situation is he like you back`. It turns out that she reeally did like you back. Unfortunately you did not invite her out because after testing the situation you wrongly thouth the `null hypothesis was false`
+
+In other words you reject a true null hypothesis and lost her chance. It is very serious problem because you could have been made for other but you didn't even try.
+
+![reject](./imgs/reject_null_hypothesis.png)
+
+Now imagine another situation she doesn't like you back but you go and invite her out. `The null hypothesis` is still she likes you back but this time is false. In reality `she doesn't really like you back`. That is however after testing you accept the `null hypotheses` and wrongly go and invite her out. She tells you that she has a boyfriend that is much older smatter and better at statistics than you and turns her back. You made a `type 2 error accpeted a false null hypothesis`.
+
+![type II error](./imgs/type_II_eror.png)
+
+However is not big deal as you go back to your normal life without her and soon forget about this awkward situation. Hypothisis testsing is usually like that. You don't really want to make any of the two error it happens sometimes. You should be aware that statistics is very useful but not perfect.
+
+![table](./imgs/table_complete.png)
+
