@@ -65,6 +65,52 @@ So what is the value of our standardized variable replug in the numbers that we 
 ![Z-score](./img/Z_score_value.png)
 
 
-> Now we will compare the ~-score to the cirital value
+> Now we will compare the z score to the cirital value
 
-Now we will compare the absolute value of minus 4.67 with a Z of alpha divided by 2 where 
+Now we will compare the absolute value of minus 4.67 with a Z of alpha divided by 2 where alpha is the significance level.
+
+Note that we use the absolute value as it is much easier to always compare positive capital Z with positive lower z's. Mowerver some Z tables don't includes negative values.
+
+![z_table](./img/z_tables.png)
+
+You should be aware that the two statements minus 4.67 is lower than the negative critical value, is the same as 4.67 hihger than the positive critical value.
+
+![table](./img/table.png)
+
+Thus our decision rule becomes absolute value of the `z score` should be higher than the absolute value of the crital value.
+
+![decision](./img/decision.png)
+
+ Using `5%` significance, our alpha is 0.05. Since it is a two sided test we check the bale for Z of 0.05 the corresponding value is 1.96.
+
+ ![table2](./img/table2.png)
+
+ The last thing we need to compare our standardized variable to is the crital value.
+
+ If the z score is higher than 1.96 we would reject the null hypothesis, if it is lower we will accept it.
+
+ `4.67` is higher than `1.96`. Therefore we reject the null hypothesis.
+
+ ![reject](./img/reject.png)
+
+ The answer is that at 5% significance level we have rejected the null hypothesis or at `5% significance level we have rejected the null hypothesis`.
+
+ Or "There is no statistical evidence that the mean salary is $113,000.
+
+ ![reject_statements](./img/reject_statements.png)
+
+ There are many other ways to express this and you will probably hear more about this later in the course.
+ 
+ What if we had a difference level using 1% significance, we have an alpha of 0.01. So Z of alpha divided by 2 is 2.58. Once again our z score is 4.67 is higher than 2.58 so we would reject the null hypothesis, even at the 1% significance
+
+ ![one percent](./img/one_percent.png)
+
+ But how much further can we go before we cannot reject the null hypotheis anymore, 0.5% of 0.1%?
+
+ There is a a special technique that allows us to see what the signifcance of all is after which we will be unable to reject null hypothesis. We will see it in our next section.
+
+ ## Exercise
+![exercise](./img/exercise_1.png)
+
+## Solution
+![Solution](./img/solution_1.png)
