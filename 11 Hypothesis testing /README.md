@@ -114,3 +114,62 @@ Thus our decision rule becomes absolute value of the `z score` should be higher 
 
 ## Solution
 ![Solution](./img/solution_1.png)
+
+## What is the p-value and why is sit one of the most useful tool for statisticians?
+
+Now we know how to test hypothesis and how to reject them. Actually we reject the hypothesis at various levels of significance but we couldn't find a level of significance for which we could no longer do it.
+
+![we_know](./img/we_know.png)
+
+This is the right moment to introduce a measure called the `P-value`. This is the most common way to test hypothesis instead of testing at pre-assigned levels of significance. We can find the smallest level of significance at which we can still reject the null hypothesis given the observed sample statistics.
+
+![pvalue](./img/pvalue.png)
+
+So how we do that. Recall the test with the data scientists salary. We had a standard error of `2739`, known population standard deviation of 15,000, normally distribute population and a sample size of 30, the corresponding z score was minus 4.67.
+![example](./img/example.png)
+
+We reject the null at 0.05 and 0.01. But we wanted to know how much lower we could go. We can check the Z table for plus 4.67 which gives us the same result as minus 4.67. 
+
+![cant_find](./img/cant_find.png)
+
+
+In most Z table, you would not find this value as it is so large. Thus we round up to the close's value available and get 0.0001.
+
+![cant_find](./img/approximate.png)
+
+> But how do we actually test the hypothesis?
+
+Well after choosing a significance level of alpha you compare the P-value to it. `You should reject the null hypothesis if the pvalue is lower than the significance level.`
+
+![reject_pvalue](./img/pvalue.png)
+
+Therefore we can safelty say that such a result is extremely significant by any measure of significance.
+
+![exmple_pvalue](./img/example_pvalue.png)
+
+
+Let's see another example, if our z score was 2.12 we should reject the null hypothesis at 5% but not reject it at 1% significance. 
+
+![another_example](./img/another_example.png)
+
+
+Now it becomes more interesting at this point, we can actually look at the table and then find the pvalue. We look for the value that corresponds with 2.12 and find that it is 0.983 the pvalue for a one sided test is (1- number we see on the table). So the corresponding pvalue is equal to `0.017`. The pvalue for a two sided test is (1 - the number we see in the bale) multiplied by 2. Therefore the pvalue would be 0.034, this is also the answer to our question.
+
+![table_value](./img/table_value.png)
+![pvalue conditions](./img/pvalues_condition.png)
+
+> Wehere and how are pvalues used
+
+![where_pvalue](./img/where_pvalue.png)
+
+Most statistical software packages run tests and then provide us with a series of results, one of them is p-value. It is then up to the researcher to decide whether the variable is statistically significance or not. Generally software is designed to calcuate the p-value to the third digit after separator.
+
+The point is when you start conducting your own research you would love to be able to see the three zerors after the dot. The closer to 0 your pvalue is the more significant is the result you've obtained.
+
+The final consideration is taht the pvalue is an extremely powerful measure as it works for all distributions, no matter if we are dealing with the normal Student's t, binomial or uniform distribution.
+
+Whatever the test the `p-value` rationale hold if the `p-value` is lower than the level of significance you reject the null hypothesis. Having said that you would normally use the p-value in the presence of a digital medium.
+
+Throughout this couse I recommend that you use online `p-value` calculators to support your studies and double check your answers.
+
+![online](./img/online.png)
