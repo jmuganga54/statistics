@@ -173,3 +173,64 @@ Whatever the test the `p-value` rationale hold if the `p-value` is lower than th
 Throughout this couse I recommend that you use online `p-value` calculators to support your studies and double check your answers.
 
 ![online](./img/online.png)
+
+## Test for the mean_ Population variance unknown
+
+Now that we know what the p-value is and how to use it we will go back to hypothesis testing.
+
+We saw only one of the two possilbe cases. We haven't covered the more commonly observed case when the `population variance is unknown`.
+
+![single population](./img/single_population.png)
+
+Imagine you are the marketing analyst of a company and you've been asked to estimate if the e-mail open reate of one of the firm's competitiors is above your company's.
+
+Your company has an open rate of 40%, an email open rate is a measure of how many people on the e-mail list actually opne the e-mails they have received.
+
+![email_open_rate](./img/email_open_rate.png)
+
+At first you struggled to figure out how to get such specific information about a competitor company but then you see that an employee of that competitor company posted a selfie on Facebook, saying oh well the email management softwae we are using drives me nuts in the background, you can see her screen and it shows clearly the summaries of the last 10 email compaigns that were sent and their corresponding open rates.
+
+With statistical skills that is only what you needs. That's all you neea a little help from Facebook.
+
+Let's formulate the hypothesis. `Null hypotehsis` mean open rate is lower or equal to 40%. Alternative hypothesis mean open rate is higher than 40 percent. 
+
+![hypotesis to test](./img/hyp_test.png)
+
+Now that in hypothesis testing we are aiming to reject the null hypothesis when we want to test if the open rate is hger than 40 perecent. The null hypothesis actually state the opposite statement. Also pay attention that this time we're dealing with one sided test.
+
+Your boss told you that 0.05 is an adequate significance level for this test. So that is what you will use.
+
+Here's the data set you calculate the sample mean and get 37.7%. The sample standard deviation is 13.74%. Thus the standard error is 1.37%.
+
+![sample_data](./img/sample_data.png)
+
+You assume that the populatio of open rates of sent emails is normally distributed like confidence intervals with variance unknown and small sample, the correct statistic to use is the t-statistics.
+
+Remeber you don't know the variance and the sample is not big enough.This means that the variable follows the Studen'ts t distribution and you must employ the t statistic. Let's calculate it then we calculate the T score the same way as the Z score, the t score is equal to the sample means minus the hypothesized mean value divided by the standard error. The result that we get is minus 1.67 as we said earlier is easier to work with positive numbers so we should compare the absolute value of minus 1.67 with the appropriate t with and minus 1 degree of freeddom at 0.05 one sided signficance. We quickly naviage through the tabl eand get 1.833 at the 5 percent significance critical value.
+
+![critical_value](./img/critical_value.png)
+
+Ok 1.67 is lower than 1.83. Remember the desicion rule.
+
+`If the absolute value of T score is lower than the statistic from the table we cannot reject the null hypotheis`. Therefore we must accept it.
+
+![rule](./img/rule.png)
+
+What you do next is you go and tell your boss that at this level of significance statistically we cannot say that the email open rate of our compatitiors is hgier than 40%.
+
+What about the second measurement we saw. What was that. Ah yes, the p-value of the statistic is 0.065 as the p-value is greater than the significance level of 0.05. We come to the same conclusion, we cannot reject the null hypothesis.
+
+![pvalue](./img/pvalue_decision_rule.png)
+
+Le't do a quick check, if the signficacne leve was 0.01, the pvalue would still be higher and we wouldn't reject the null hypothesis. This is an important obeservation that we haven't noted before.
+
+If we cannot reject a test at 0.05 significance we cannot reject it at samller levels either.
+
+![observation](./img/observation.png)
+
+
+## Exercise
+![exerise 4](./img/exercise_4.png)
+
+## Solution
+![solution 4](./img/soluton_4.png)
