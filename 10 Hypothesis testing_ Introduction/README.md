@@ -197,3 +197,64 @@ However is not big deal as you go back to your normal life without her and soon 
 ![table](./imgs/table_complete.png)
 
 
+## Test for mean Dependent samples
+
+We are not done with Hypothesis Testing just yet remember how we started with confidence intervals for a single population meand and then switched to examples considering multiple populations.
+
+While we are in the same situation here, single population are just the begining time to do multiple means
+
+![Multiple means](./imgs/multiple_means.png)
+
+> Multiple populations
+
+We will start with `Dependent samples`. The most initive examples of dependent sample are the one you have been through like `weight loss` and `blood tests`.
+
+![Weightloss_bloodtests](./imgs/weight_loss_blood_tests.png)
+
+The sample is drawn from Weight-Loss data or concentration of nutrient data. But the subject of interest is the same person before and after.
+
+Do you recall our exampe with the magnesium levels in one's blood. There was this drug company developing a new pill that supposably increase levels of magnesioum of recipents. There was 10 people involved in teh study that were taking the drug for some time and we calculated confidence intervals that helped us study the effects of that drug.
+
+They indicated the range of plausible values for the population mean. This time we want to come to a single definite conclusion about the effectiveness of the drug.
+
+![Magnesium](./imgs/magnesium.png)
+
+Let's state the null hypothesis, The population mean before is greater or equal than the population mean after, the alternative is that the population mean before is lower than the one after. Once again we want to know if the magnesium levels are higher.
+
+
+We construct a null and alternative hypotheis in such a way so that we are aiming to reject the null hypothesis.
+
+![Null_hypothesis](./imgs/hypotesis_formulation.png)
+
+
+Ok let's reroder a bit. Age 0 is `myu` before which is equal or higher than `myu` after this is equivalent to `myu` before minus `myu`ater is equal to zero or positive.
+
+![reorder](./imgs/reorder.png)
+
+We can subsitute this with capital `D0, it stands for the hypothesized populaion mean difference. So we restate our hypotheses using d for simplicity.
+
+![simplicity](./imgs/simplicity.png)
+
+Now we have our test designed. Let's crunch some numbers. Here's the data set. We have 10 observation people have registered befor and after. Naturally the difference is equal to before minus after we can calculate the sample mean of the difference we get minus `0.33`. The sample standar deviation is `0.45` and standard error is `0.14`. The appropriate statistic to use here is the `t statitics, we have a small sample. WE assume normal distribution of the population and we don't know the variable.
+
+![details](./imgs/details.png)
+
+So the `t-score` is eual to the following expression. Now we can simply carry up the calculation and find that it's value is negative 2.29,
+
+![results](./imgs/results.png)
+
+Since we don't want to choose a level of significance. Well let solve the proble with the p-value in order to find the value of this one sided test. In order to find the value of this one side test. We may go to the table and see it is somewhere between 0.01 and 0.025. As I told you ealer usig software is much easier. So after using an online p-value calculator I can tell you that it is exactly 0.024
+
+What was the decison rule again. If the pvalue is lower than the significance lewl we can intererested in, we reject the null hypothesis. Ok so if the level of significance is 0.05 and the pvalue is lower we will be able to reject the hypothesis at 5%, if the level of significance is 0.01 however the pvalue is hgier, so we cannot reject the null hypothesis at a 1% level of significance.
+
+![rule](./imgs/rule.png)
+
+The lowerst value for which we can reject it is 0.24 which is exactly the pvalue.
+
+![lowest signficance_level](./imgs/lowest_signifcance_level.png)
+
+> What does this tell us?
+
+Well it is up to the researcher to choose the level of signficance in the case of the magnesium pill. We expect that the researchr will be very cautious as he would want to know if this is an effective pill they will be able to actually help people. If we cannot say taht the pill works at a 1% significance level perhaps it is better to take it back to the laboratory and alternative would be test again and increase the sample size for better results. A sample of 100 people would improve the level of precision significantly.
+
+![increase sample](./imgs/increate_sample_size.png)
